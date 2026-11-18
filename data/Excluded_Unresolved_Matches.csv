@@ -1,0 +1,30 @@
+YEAR,FORMAT,MATCH_DATE,TEAM1,TEAM2,TEAM1_RUNS,TEAM1_WICKETS_LOST,TEAM2_RUNS,TEAM2_WICKETS_LOST,WINNER,MARGIN,WIN_BY_RUNS,WIN_BY_WICKETS,VENUE,MATCH_ID,MATCH_STATUS,SOURCE_FILE,WICKET_DISCREPANCY,EXCLUSION_REASON
+1979,ODI,,SL,WI,,,,,,,,,LONDON,,,CRICKET WORLD CUP - 1979.csv,False,MISSING WINNER
+1992,ODI,,ENG,PAK,,,,,,,,,ADELAIDE,,,CRICKET WORLD CUP - 1992.csv,False,MISSING WINNER
+1992,ODI,,IND,SL,,,,,,,,,MACKAY,,,CRICKET WORLD CUP - 1992.csv,False,MISSING WINNER
+1999,ODI,,AUS,SA,213.0,10.0,213.0,10.0,,,,,BIRMINGHAM,,,CRICKET WORLD CUP - 1999.csv,False,MISSING WINNER
+1999,ODI,,NZ,ZIM,70.0,,175.0,,,,,,LEEDS,,,CRICKET WORLD CUP - 1999.csv,False,MISSING WINNER
+2003,ODI,,BAN,WI,,,,,,,,,BENONI,,,CRICKET WORLD CUP - 2003.csv,False,MISSING WINNER
+2003,ODI,,PAK,ZIM,,,,,,,,,BULAWAYO,,,CRICKET WORLD CUP - 2003.csv,False,MISSING WINNER
+2003,ODI,,SA,SL,229.0,6.0,268.0,9.0,,,,,DURBAN,,,CRICKET WORLD CUP - 2003.csv,False,MISSING WINNER
+2007,ODI,,IRE,ZIM,221.0,9.0,221.0,10.0,,,,,JAMAICA,,,CRICKET WORLD CUP - 2007.csv,False,MISSING WINNER
+2011,ODI,,ENG,IND,338.0,9.0,338.0,10.0,,,,,BENGALURU,,,CRICKET WORLD CUP - 2011.csv,True,MISSING WINNER
+2011,ODI,,AUS,SL,,,,,,,,,COLOMBO,,,CRICKET WORLD CUP - 2011.csv,False,MISSING WINNER
+2015,ODI,,AUS,BAN,,,,,,,,,BRISBANE,,,CRICKET WORLD CUP - 2015.csv,False,MISSING WINNER
+2019,ODI,,BAN,SL,,,,,,,,,BRISTOL,,,CRICKET WORLD CUP - 2019.csv,False,MISSING WINNER
+2019,ODI,,PAK,SL,,,,,,,,,BRISTOL,,,CRICKET WORLD CUP - 2019.csv,False,MISSING WINNER
+2019,ODI,,IND,NZ,,,,,,,,,NOTTINGHAM,,,CRICKET WORLD CUP - 2019.csv,False,MISSING WINNER
+2019,ODI,,SA,WI,,,,,,,,,SOUTHAMPTON,,,CRICKET WORLD CUP - 2019.csv,False,MISSING WINNER
+2007,T20I,2007-09-14,India,Pakistan,,,,,tied,-,,,Durban,T20I # 29,TIED,all_t20_world_cup_matches_results.csv,,TIED
+2007,T20I,2007-09-13,India,Scotland,,,,,no result,-,,,Durban,T20I # 26,NO RESULT,all_t20_world_cup_matches_results.csv,,NO RESULT
+2010,T20I,2010-05-04,England,Ireland,,,,,no result,-,,,Providence,T20I # 160,NO RESULT,all_t20_world_cup_matches_results.csv,,NO RESULT
+2012,T20I,2012-10-01,New Zealand,West Indies,,,,,tied,-,,,Pallekele,T20I # 283,TIED,all_t20_world_cup_matches_results.csv,,TIED
+2012,T20I,2012-09-27,Sri Lanka,New Zealand,,,,,tied,-,,,Pallekele,T20I # 275,TIED,all_t20_world_cup_matches_results.csv,,TIED
+2012,T20I,2012-09-24,Ireland,West Indies,,,,,no result,-,,,Colombo (RPS),T20I # 273,NO RESULT,all_t20_world_cup_matches_results.csv,,NO RESULT
+2016,T20I,2016-03-11,Bangladesh,Ireland,,,,,no result,-,,,Dharamsala,T20I # 530,NO RESULT,all_t20_world_cup_matches_results.csv,,NO RESULT
+2016,T20I,2016-03-11,Netherlands,Oman,,,,,no result,-,,,Dharamsala,T20I # 529,NO RESULT,all_t20_world_cup_matches_results.csv,,NO RESULT
+2022,T20I,2022-10-24,South Africa,Zimbabwe,,,,,no result,-,,,Hobart,T20I # 1844,NO RESULT,all_t20_world_cup_matches_results.csv,,NO RESULT
+2024,T20I,2024-06-04,England,Scotland,,,,,no result,-,,,Bridgetown,T20I # 2637,NO RESULT,all_t20_world_cup_matches_results.csv,,NO RESULT
+2024,T20I,2024-06-11,Nepal,Sri Lanka,,,,,,Abandoned,,,Lauderhill,,ABANDONED,t20_worldCup.csv,,MISSING WINNER
+2024,T20I,2024-06-14,United States of America,Ireland,,,,,,Abandoned,,,Lauderhill,,ABANDONED,t20_worldCup.csv,,MISSING WINNER
+2024,T20I,2024-06-15,Canada,India,,,,,,Abandoned,,,Lauderhill,,ABANDONED,t20_worldCup.csv,,MISSING WINNER

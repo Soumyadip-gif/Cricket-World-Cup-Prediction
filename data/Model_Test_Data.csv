@@ -1,0 +1,100 @@
+FORMAT,YEAR,TEAM1,TEAM2,VENUE,TEAM1_WIN
+ODI,2023,India,Australia,Ahmedabad,0
+ODI,2023,Australia,South Africa,Eden Gardens,1
+ODI,2023,India,New Zealand,Wankhede,1
+ODI,2023,India,Netherlands,Bengaluru,1
+ODI,2023,England,Pakistan,Eden Gardens,1
+ODI,2023,Australia,Bangladesh,Pune,1
+ODI,2023,Afghanistan,South Africa,Ahmedabad,0
+ODI,2023,New Zealand,Sri Lanka,Bengaluru,1
+ODI,2023,England,Netherlands,Pune,1
+ODI,2023,Afghanistan,Australia,Wankhede,0
+ODI,2023,Bangladesh,Sri Lanka,Delhi,1
+ODI,2023,India,South Africa,Eden Gardens,1
+ODI,2023,Australia,England,Ahmedabad,1
+ODI,2023,New Zealand,Pakistan,Bengaluru,0
+ODI,2023,Afghanistan,Netherlands,Lucknow,1
+ODI,2023,India,Sri Lanka,Wankhede,1
+ODI,2023,New Zealand,South Africa,Pune,0
+ODI,2023,Bangladesh,Pakistan,Eden Gardens,0
+ODI,2023,Afghanistan,Sri Lanka,Pune,1
+ODI,2023,India,England,Lucknow,1
+ODI,2023,Bangladesh,Netherlands,Eden Gardens,0
+ODI,2023,Australia,New Zealand,Dharamsala,1
+ODI,2023,Pakistan,South Africa,Chennai,0
+ODI,2023,England,Sri Lanka,Bengaluru,0
+ODI,2023,Australia,Netherlands,Delhi,1
+ODI,2023,Bangladesh,South Africa,Wankhede,0
+ODI,2023,Afghanistan,Pakistan,Chennai,1
+ODI,2023,India,New Zealand,Dharamsala,1
+ODI,2023,England,South Africa,Wankhede,0
+ODI,2023,Netherlands,Sri Lanka,Lucknow,0
+ODI,2023,Australia,Pakistan,Bengaluru,1
+ODI,2023,India,Bangladesh,Pune,1
+ODI,2023,Afghanistan,New Zealand,Chennai,0
+ODI,2023,Netherlands,South Africa,Dharamsala,1
+ODI,2023,Australia,Sri Lanka,Lucknow,1
+ODI,2023,Afghanistan,England,Delhi,1
+ODI,2023,India,Pakistan,Ahmedabad,1
+ODI,2023,Bangladesh,New Zealand,Chennai,0
+ODI,2023,Australia,South Africa,Lucknow,0
+ODI,2023,India,Afghanistan,Delhi,1
+ODI,2023,Pakistan,Sri Lanka,Hyderabad,1
+ODI,2023,Bangladesh,England,Dharamsala,0
+ODI,2023,Netherlands,New Zealand,Hyderabad,0
+ODI,2023,India,Australia,Chennai,1
+ODI,2023,South Africa,Sri Lanka,Delhi,1
+ODI,2023,Afghanistan,Bangladesh,Dharamsala,0
+ODI,2023,Netherlands,Pakistan,Hyderabad,0
+ODI,2023,England,New Zealand,Ahmedabad,0
+T20I,2024,India,South Africa,Bridgetown,1
+T20I,2024,England,India,Providence,0
+T20I,2024,Afghanistan,South Africa,Tarouba,0
+T20I,2024,Afghanistan,Bangladesh,Kingstown,1
+T20I,2024,Australia,India,Gros Islet,0
+T20I,2024,West Indies,South Africa,North Sound,0
+T20I,2024,England,United States of America,Bridgetown,1
+T20I,2024,Afghanistan,Australia,Kingstown,1
+T20I,2024,Bangladesh,India,North Sound,0
+T20I,2024,West Indies,United States of America,Bridgetown,1
+T20I,2024,England,South Africa,Gros Islet,0
+T20I,2024,Australia,Bangladesh,North Sound,1
+T20I,2024,Afghanistan,India,Bridgetown,0
+T20I,2024,West Indies,England,Gros Islet,0
+T20I,2024,South Africa,United States of America,North Sound,1
+T20I,2024,West Indies,Afghanistan,Gros Islet,1
+T20I,2024,New Zealand,Papua New Guinea,Tarouba,1
+T20I,2024,Netherlands,Sri Lanka,Gros Islet,0
+T20I,2024,Bangladesh,Nepal,Kingstown,1
+T20I,2024,Ireland,Pakistan,Lauderhill,0
+T20I,2024,Australia,Scotland,Gros Islet,1
+T20I,2024,England,Namibia,North Sound,1
+T20I,2024,New Zealand,Uganda,Tarouba,1
+T20I,2024,Nepal,South Africa,Kingstown,0
+T20I,2024,Afghanistan,Papua New Guinea,Tarouba,1
+T20I,2024,England,Oman,North Sound,1
+T20I,2024,Bangladesh,Netherlands,Kingstown,1
+T20I,2024,West Indies,New Zealand,Tarouba,1
+T20I,2024,United States of America,India,New York,0
+T20I,2024,Australia,Namibia,North Sound,1
+T20I,2024,Canada,Pakistan,New York,0
+T20I,2024,Bangladesh,South Africa,New York,0
+T20I,2024,Oman,Scotland,North Sound,0
+T20I,2024,India,Pakistan,New York,1
+T20I,2024,West Indies,Uganda,Providence,1
+T20I,2024,Australia,England,Bridgetown,1
+T20I,2024,Netherlands,South Africa,New York,0
+T20I,2024,Bangladesh,Sri Lanka,Dallas,1
+T20I,2024,Afghanistan,New Zealand,Providence,1
+T20I,2024,Canada,Ireland,New York,1
+T20I,2024,Namibia,Scotland,Bridgetown,0
+T20I,2024,United States of America,Pakistan,Dallas,1
+T20I,2024,Australia,Oman,Bridgetown,1
+T20I,2024,Papua New Guinea,Uganda,Providence,0
+T20I,2024,India,Ireland,New York,1
+T20I,2024,Nepal,Netherlands,Dallas,0
+T20I,2024,Afghanistan,Uganda,Providence,1
+T20I,2024,South Africa,Sri Lanka,New York,1
+T20I,2024,Namibia,Oman,Bridgetown,1
+T20I,2024,West Indies,Papua New Guinea,Providence,1
+T20I,2024,United States of America,Canada,Dallas,1

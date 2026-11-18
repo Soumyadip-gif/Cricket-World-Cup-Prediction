@@ -1,0 +1,62 @@
+CATEGORY,SEVERITY,COUNT,DETAILS
+Combined record count,CRITICAL,0,Expected exactly 821 records
+ODI record count,CRITICAL,0,Expected exactly 501 ODI records
+T20I record count,CRITICAL,0,Expected exactly 320 T20I records
+Invalid format,CRITICAL,0,Format must be ODI or T20I
+Edition count: ODI 1975,PASS,0,Expected 15; found 15
+Edition count: ODI 1979,PASS,0,Expected 15; found 15
+Edition count: ODI 1983,PASS,0,Expected 27; found 27
+Edition count: ODI 1987,PASS,0,Expected 27; found 27
+Edition count: ODI 1992,PASS,0,Expected 39; found 39
+Edition count: ODI 1996,PASS,0,Expected 37; found 37
+Edition count: ODI 1999,PASS,0,Expected 42; found 42
+Edition count: ODI 2003,PASS,0,Expected 54; found 54
+Edition count: ODI 2007,PASS,0,Expected 51; found 51
+Edition count: ODI 2011,PASS,0,Expected 49; found 49
+Edition count: ODI 2015,PASS,0,Expected 49; found 49
+Edition count: ODI 2019,PASS,0,Expected 48; found 48
+Edition count: ODI 2023,PASS,0,Expected 48; found 48
+Edition count: T20I 2007,PASS,0,Expected 27; found 27
+Edition count: T20I 2009,PASS,0,Expected 27; found 27
+Edition count: T20I 2010,PASS,0,Expected 27; found 27
+Edition count: T20I 2012,PASS,0,Expected 27; found 27
+Edition count: T20I 2014,PASS,0,Expected 35; found 35
+Edition count: T20I 2016,PASS,0,Expected 35; found 35
+Edition count: T20I 2021,PASS,0,Expected 45; found 45
+Edition count: T20I 2022,PASS,0,Expected 42; found 42
+Edition count: T20I 2024,PASS,0,Expected 55; found 55
+Duplicate dated match identities,CRITICAL,0,Duplicate format + date + team-pair identities
+Missing values: YEAR,PASS,0,Missing field values
+Missing values: FORMAT,PASS,0,Missing field values
+Missing values: MATCH_DATE,WARNING,453,Missing field values
+Missing values: TEAM1,PASS,0,Missing field values
+Missing values: TEAM2,PASS,0,Missing field values
+Missing values: TEAM1_RUNS,WARNING,383,Missing field values
+Missing values: TEAM1_WICKETS_LOST,WARNING,384,Missing field values
+Missing values: TEAM2_RUNS,WARNING,384,Missing field values
+Missing values: TEAM2_WICKETS_LOST,WARNING,385,Missing field values
+Missing values: WINNER,WARNING,19,Missing field values
+Missing values: MARGIN,WARNING,453,Missing field values
+Missing values: WIN_BY_RUNS,WARNING,640,Missing field values
+Missing values: WIN_BY_WICKETS,WARNING,649,Missing field values
+Missing values: VENUE,PASS,0,Missing field values
+Missing values: MATCH_ID,WARNING,456,Missing field values
+Missing values: MATCH_STATUS,WARNING,501,Missing field values
+Missing values: SOURCE_FILE,PASS,0,Missing field values
+Missing values: WICKET_DISCREPANCY,WARNING,320,Missing field values
+Invalid dates,CRITICAL,0,Non-empty match date could not be parsed
+Missing team names,CRITICAL,0,One or both team names are missing
+Self matches,CRITICAL,0,Team 1 and Team 2 are identical
+Winner not in participating teams,CRITICAL,0,Winner is neither participating team nor a tie/no-result status
+Invalid values: TEAM1_RUNS,CRITICAL,0,Runs must be non-negative; wickets must be 0?10
+Invalid values: TEAM2_RUNS,CRITICAL,0,Runs must be non-negative; wickets must be 0?10
+Invalid values: TEAM1_WICKETS_LOST,CRITICAL,0,Runs must be non-negative; wickets must be 0?10
+Invalid values: TEAM2_WICKETS_LOST,CRITICAL,0,Runs must be non-negative; wickets must be 0?10
+Match status: nan,INFO,501,Recorded match status distribution
+Match status: COMPLETED,INFO,305,Recorded match status distribution
+Match status: NO RESULT,INFO,7,Recorded match status distribution
+Match status: TIED,INFO,3,Recorded match status distribution
+Match status: ABANDONED,INFO,3,Recorded match status distribution
+Match status: SUPER OVER,INFO,2,Recorded match status distribution
+Historical wicket discrepancy flags,WARNING,17,Existing source-record discrepancies; requires review
+Duplicate non-empty match IDs,WARNING,0,Repeated source match identifiers

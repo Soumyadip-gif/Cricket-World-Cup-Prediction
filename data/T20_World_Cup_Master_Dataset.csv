@@ -1,0 +1,321 @@
+YEAR,FORMAT,MATCH_DATE,TEAM1,TEAM2,WINNER,MARGIN,VENUE,MATCH_ID,SOURCE_FILE,WIN_BY_RUNS,WIN_BY_WICKETS,MATCH_STATUS
+2007,T20I,2007-09-24,India,Pakistan,India,5 runs,Johannesburg,T20I # 46,all_t20_world_cup_matches_results.csv,5,,COMPLETED
+2007,T20I,2007-09-22,Australia,India,India,15 runs,Durban,T20I # 45,all_t20_world_cup_matches_results.csv,15,,COMPLETED
+2007,T20I,2007-09-22,New Zealand,Pakistan,Pakistan,6 wickets,Cape Town,T20I # 44,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2007,T20I,2007-09-20,South Africa,India,India,37 runs,Durban,T20I # 43,all_t20_world_cup_matches_results.csv,37,,COMPLETED
+2007,T20I,2007-09-20,Bangladesh,Pakistan,Pakistan,4 wickets,Cape Town,T20I # 42,all_t20_world_cup_matches_results.csv,,4,COMPLETED
+2007,T20I,2007-09-20,Australia,Sri Lanka,Australia,10 wickets,Cape Town,T20I # 41,all_t20_world_cup_matches_results.csv,,10,COMPLETED
+2007,T20I,2007-09-19,England,India,India,18 runs,Durban,T20I # 40,all_t20_world_cup_matches_results.csv,18,,COMPLETED
+2007,T20I,2007-09-19,South Africa,New Zealand,South Africa,6 wickets,Durban,T20I # 39,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2007,T20I,2007-09-18,Bangladesh,Sri Lanka,Sri Lanka,64 runs,Johannesburg,T20I # 38,all_t20_world_cup_matches_results.csv,64,,COMPLETED
+2007,T20I,2007-09-18,Australia,Pakistan,Pakistan,6 wickets,Johannesburg,T20I # 37,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2007,T20I,2007-09-18,England,New Zealand,New Zealand,5 runs,Durban,T20I # 36,all_t20_world_cup_matches_results.csv,5,,COMPLETED
+2007,T20I,2007-09-17,Pakistan,Sri Lanka,Pakistan,33 runs,Johannesburg,T20I # 35,all_t20_world_cup_matches_results.csv,33,,COMPLETED
+2007,T20I,2007-09-16,South Africa,England,South Africa,19 runs,Cape Town,T20I # 34,all_t20_world_cup_matches_results.csv,19,,COMPLETED
+2007,T20I,2007-09-16,Australia,Bangladesh,Australia,9 wickets,Cape Town,T20I # 33,all_t20_world_cup_matches_results.csv,,9,COMPLETED
+2007,T20I,2007-09-16,India,New Zealand,New Zealand,10 runs,Johannesburg,T20I # 32,all_t20_world_cup_matches_results.csv,10,,COMPLETED
+2007,T20I,2007-09-15,South Africa,Bangladesh,South Africa,7 wickets,Cape Town,T20I # 31,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2007,T20I,2007-09-15,New Zealand,Sri Lanka,Sri Lanka,7 wickets,Johannesburg,T20I # 30,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2007,T20I,2007-09-14,India,Pakistan,tied,-,Durban,T20I # 29,all_t20_world_cup_matches_results.csv,,,TIED
+2007,T20I,2007-09-14,Australia,England,Australia,8 wickets,Cape Town,T20I # 28,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2007,T20I,2007-09-14,Kenya,Sri Lanka,Sri Lanka,172 runs,Johannesburg,T20I # 27,all_t20_world_cup_matches_results.csv,172,,COMPLETED
+2007,T20I,2007-09-13,India,Scotland,no result,-,Durban,T20I # 26,all_t20_world_cup_matches_results.csv,,,NO RESULT
+2007,T20I,2007-09-13,England,Zimbabwe,England,50 runs,Cape Town,T20I # 25,all_t20_world_cup_matches_results.csv,50,,COMPLETED
+2007,T20I,2007-09-13,Bangladesh,West Indies,Bangladesh,6 wickets,Johannesburg,T20I # 24,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2007,T20I,2007-09-12,Australia,Zimbabwe,Zimbabwe,5 wickets,Cape Town,T20I # 23,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2007,T20I,2007-09-12,Pakistan,Scotland,Pakistan,51 runs,Durban,T20I # 22,all_t20_world_cup_matches_results.csv,51,,COMPLETED
+2007,T20I,2007-09-12,Kenya,New Zealand,New Zealand,9 wickets,Durban,T20I # 21,all_t20_world_cup_matches_results.csv,,9,COMPLETED
+2007,T20I,2007-09-11,South Africa,West Indies,South Africa,8 wickets,Johannesburg,T20I # 20,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2009,T20I,2009-06-21,Pakistan,Sri Lanka,Pakistan,8 wickets,Lord's,T20I # 116,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2009,T20I,2009-06-19,Sri Lanka,West Indies,Sri Lanka,57 runs,The Oval,T20I # 115,all_t20_world_cup_matches_results.csv,57,,COMPLETED
+2009,T20I,2009-06-18,Pakistan,South Africa,Pakistan,7 runs,Nottingham,T20I # 114,all_t20_world_cup_matches_results.csv,7,,COMPLETED
+2009,T20I,2009-06-16,India,South Africa,South Africa,12 runs,Nottingham,T20I # 113,all_t20_world_cup_matches_results.csv,12,,COMPLETED
+2009,T20I,2009-06-16,New Zealand,Sri Lanka,Sri Lanka,48 runs,Nottingham,T20I # 112,all_t20_world_cup_matches_results.csv,48,,COMPLETED
+2009,T20I,2009-06-15,England,West Indies,West Indies,5 wickets,The Oval,T20I # 111,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2009,T20I,2009-06-15,Ireland,Pakistan,Pakistan,39 runs,The Oval,T20I # 110,all_t20_world_cup_matches_results.csv,39,,COMPLETED
+2009,T20I,2009-06-14,England,India,England,3 runs,Lord's,T20I # 109,all_t20_world_cup_matches_results.csv,3,,COMPLETED
+2009,T20I,2009-06-14,Ireland,Sri Lanka,Sri Lanka,9 runs,Lord's,T20I # 108,all_t20_world_cup_matches_results.csv,9,,COMPLETED
+2009,T20I,2009-06-13,New Zealand,Pakistan,Pakistan,6 wickets,The Oval,T20I # 107,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2009,T20I,2009-06-13,South Africa,West Indies,South Africa,20 runs,The Oval,T20I # 106,all_t20_world_cup_matches_results.csv,20,,COMPLETED
+2009,T20I,2009-06-12,India,West Indies,West Indies,7 wickets,Lord's,T20I # 105,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2009,T20I,2009-06-12,Pakistan,Sri Lanka,Sri Lanka,19 runs,Lord's,T20I # 104,all_t20_world_cup_matches_results.csv,19,,COMPLETED
+2009,T20I,2009-06-11,England,South Africa,South Africa,7 wickets,Nottingham,T20I # 103,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2009,T20I,2009-06-11,Ireland,New Zealand,New Zealand,83 runs,Nottingham,T20I # 102,all_t20_world_cup_matches_results.csv,83,,COMPLETED
+2009,T20I,2009-06-10,India,Ireland,India,8 wickets,Nottingham,T20I # 101,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2009,T20I,2009-06-10,Sri Lanka,West Indies,Sri Lanka,15 runs,Nottingham,T20I # 100,all_t20_world_cup_matches_results.csv,15,,COMPLETED
+2009,T20I,2009-06-09,New Zealand,South Africa,South Africa,1 run,Lord's,T20I # 99,all_t20_world_cup_matches_results.csv,1,,COMPLETED
+2009,T20I,2009-06-09,Netherlands,Pakistan,Pakistan,82 runs,Lord's,T20I # 98,all_t20_world_cup_matches_results.csv,82,,COMPLETED
+2009,T20I,2009-06-08,Australia,Sri Lanka,Sri Lanka,6 wickets,Nottingham,T20I # 97,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2009,T20I,2009-06-08,Bangladesh,Ireland,Ireland,6 wickets,Nottingham,T20I # 96,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2009,T20I,2009-06-07,England,Pakistan,England,48 runs,The Oval,T20I # 95,all_t20_world_cup_matches_results.csv,48,,COMPLETED
+2009,T20I,2009-06-07,Scotland,South Africa,South Africa,130 runs,The Oval,T20I # 94,all_t20_world_cup_matches_results.csv,130,,COMPLETED
+2009,T20I,2009-06-06,Bangladesh,India,India,25 runs,Nottingham,T20I # 93,all_t20_world_cup_matches_results.csv,25,,COMPLETED
+2009,T20I,2009-06-06,Australia,West Indies,West Indies,7 wickets,The Oval,T20I # 92,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2009,T20I,2009-06-06,New Zealand,Scotland,New Zealand,7 wickets,The Oval,T20I # 91,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2009,T20I,2009-06-05,England,Netherlands,Netherlands,4 wickets,Lord's,T20I # 90,all_t20_world_cup_matches_results.csv,,4,COMPLETED
+2010,T20I,2010-05-16,Australia,England,England,7 wickets,Bridgetown,T20I # 177,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2010,T20I,2010-05-14,Australia,Pakistan,Australia,3 wickets,Gros Islet,T20I # 176,all_t20_world_cup_matches_results.csv,,3,COMPLETED
+2010,T20I,2010-05-13,England,Sri Lanka,England,7 wickets,Gros Islet,T20I # 175,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2010,T20I,2010-05-11,West Indies,Australia,Australia,6 wickets,Gros Islet,T20I # 174,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2010,T20I,2010-05-11,India,Sri Lanka,Sri Lanka,5 wickets,Gros Islet,T20I # 173,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2010,T20I,2010-05-10,England,New Zealand,England,3 wickets,Gros Islet,T20I # 172,all_t20_world_cup_matches_results.csv,,3,COMPLETED
+2010,T20I,2010-05-10,Pakistan,South Africa,Pakistan,11 runs,Gros Islet,T20I # 171,all_t20_world_cup_matches_results.csv,11,,COMPLETED
+2010,T20I,2010-05-09,Australia,Sri Lanka,Australia,81 runs,Bridgetown,T20I # 170,all_t20_world_cup_matches_results.csv,81,,COMPLETED
+2010,T20I,2010-05-09,West Indies,India,West Indies,14 runs,Bridgetown,T20I # 169,all_t20_world_cup_matches_results.csv,14,,COMPLETED
+2010,T20I,2010-05-08,England,South Africa,England,39 runs,Bridgetown,T20I # 168,all_t20_world_cup_matches_results.csv,39,,COMPLETED
+2010,T20I,2010-05-08,New Zealand,Pakistan,New Zealand,1 run,Bridgetown,T20I # 167,all_t20_world_cup_matches_results.csv,1,,COMPLETED
+2010,T20I,2010-05-07,West Indies,Sri Lanka,Sri Lanka,57 runs,Bridgetown,T20I # 166,all_t20_world_cup_matches_results.csv,57,,COMPLETED
+2010,T20I,2010-05-07,Australia,India,Australia,49 runs,Bridgetown,T20I # 165,all_t20_world_cup_matches_results.csv,49,,COMPLETED
+2010,T20I,2010-05-06,New Zealand,South Africa,South Africa,13 runs,Bridgetown,T20I # 164,all_t20_world_cup_matches_results.csv,13,,COMPLETED
+2010,T20I,2010-05-06,England,Pakistan,England,6 wickets,Bridgetown,T20I # 163,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2010,T20I,2010-05-05,Afghanistan,South Africa,South Africa,59 runs,Bridgetown,T20I # 162,all_t20_world_cup_matches_results.csv,59,,COMPLETED
+2010,T20I,2010-05-05,Australia,Bangladesh,Australia,27 runs,Bridgetown,T20I # 161,all_t20_world_cup_matches_results.csv,27,,COMPLETED
+2010,T20I,2010-05-04,England,Ireland,no result,-,Providence,T20I # 160,all_t20_world_cup_matches_results.csv,,,NO RESULT
+2010,T20I,2010-05-04,New Zealand,Zimbabwe,New Zealand,7 runs,Providence,T20I # 159,all_t20_world_cup_matches_results.csv,7,,COMPLETED
+2010,T20I,2010-05-03,West Indies,England,West Indies,8 wickets,Providence,T20I # 158,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2010,T20I,2010-05-03,Sri Lanka,Zimbabwe,Sri Lanka,14 runs,Providence,T20I # 157,all_t20_world_cup_matches_results.csv,14,,COMPLETED
+2010,T20I,2010-05-02,Australia,Pakistan,Australia,34 runs,Gros Islet,T20I # 156,all_t20_world_cup_matches_results.csv,34,,COMPLETED
+2010,T20I,2010-05-02,India,South Africa,India,14 runs,Gros Islet,T20I # 155,all_t20_world_cup_matches_results.csv,14,,COMPLETED
+2010,T20I,2010-05-01,Bangladesh,Pakistan,Pakistan,21 runs,Gros Islet,T20I # 154,all_t20_world_cup_matches_results.csv,21,,COMPLETED
+2010,T20I,2010-05-01,Afghanistan,India,India,7 wickets,Gros Islet,T20I # 153,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2010,T20I,2010-04-30,West Indies,Ireland,West Indies,70 runs,Providence,T20I # 152,all_t20_world_cup_matches_results.csv,70,,COMPLETED
+2010,T20I,2010-04-30,New Zealand,Sri Lanka,New Zealand,2 wickets,Providence,T20I # 151,all_t20_world_cup_matches_results.csv,,2,COMPLETED
+2012,T20I,2012-10-07,Sri Lanka,West Indies,West Indies,36 runs,Colombo (RPS),T20I # 289,all_t20_world_cup_matches_results.csv,36,,COMPLETED
+2012,T20I,2012-10-05,Australia,West Indies,West Indies,74 runs,Colombo (RPS),T20I # 288,all_t20_world_cup_matches_results.csv,74,,COMPLETED
+2012,T20I,2012-10-04,Sri Lanka,Pakistan,Sri Lanka,16 runs,Colombo (RPS),T20I # 287,all_t20_world_cup_matches_results.csv,16,,COMPLETED
+2012,T20I,2012-10-02,India,South Africa,India,1 run,Colombo (RPS),T20I # 286,all_t20_world_cup_matches_results.csv,1,,COMPLETED
+2012,T20I,2012-10-02,Australia,Pakistan,Pakistan,32 runs,Colombo (RPS),T20I # 285,all_t20_world_cup_matches_results.csv,32,,COMPLETED
+2012,T20I,2012-10-01,Sri Lanka,England,Sri Lanka,19 runs,Pallekele,T20I # 284,all_t20_world_cup_matches_results.csv,19,,COMPLETED
+2012,T20I,2012-10-01,New Zealand,West Indies,tied,-,Pallekele,T20I # 283,all_t20_world_cup_matches_results.csv,,,TIED
+2012,T20I,2012-09-30,India,Pakistan,India,8 wickets,Colombo (RPS),T20I # 282,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2012,T20I,2012-09-30,Australia,South Africa,Australia,8 wickets,Colombo (RPS),T20I # 281,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2012,T20I,2012-09-29,Sri Lanka,West Indies,Sri Lanka,9 wickets,Pallekele,T20I # 280,all_t20_world_cup_matches_results.csv,,9,COMPLETED
+2012,T20I,2012-09-29,England,New Zealand,England,6 wickets,Pallekele,T20I # 279,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2012,T20I,2012-09-28,Australia,India,Australia,9 wickets,Colombo (RPS),T20I # 278,all_t20_world_cup_matches_results.csv,,9,COMPLETED
+2012,T20I,2012-09-28,Pakistan,South Africa,Pakistan,2 wickets,Colombo (RPS),T20I # 277,all_t20_world_cup_matches_results.csv,,2,COMPLETED
+2012,T20I,2012-09-27,England,West Indies,West Indies,15 runs,Pallekele,T20I # 276,all_t20_world_cup_matches_results.csv,15,,COMPLETED
+2012,T20I,2012-09-27,Sri Lanka,New Zealand,tied,-,Pallekele,T20I # 275,all_t20_world_cup_matches_results.csv,,,TIED
+2012,T20I,2012-09-25,Bangladesh,Pakistan,Pakistan,8 wickets,Pallekele,T20I # 274,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2012,T20I,2012-09-24,Ireland,West Indies,no result,-,Colombo (RPS),T20I # 273,all_t20_world_cup_matches_results.csv,,,NO RESULT
+2012,T20I,2012-09-23,England,India,India,90 runs,Colombo (RPS),T20I # 272,all_t20_world_cup_matches_results.csv,90,,COMPLETED
+2012,T20I,2012-09-23,New Zealand,Pakistan,Pakistan,13 runs,Pallekele,T20I # 271,all_t20_world_cup_matches_results.csv,13,,COMPLETED
+2012,T20I,2012-09-22,Australia,West Indies,Australia,17 runs,Colombo (RPS),T20I # 270,all_t20_world_cup_matches_results.csv,17,,COMPLETED
+2012,T20I,2012-09-22,Sri Lanka,South Africa,South Africa,32 runs,Hambantota,T20I # 269,all_t20_world_cup_matches_results.csv,32,,COMPLETED
+2012,T20I,2012-09-21,Afghanistan,England,England,116 runs,Colombo (RPS),T20I # 268,all_t20_world_cup_matches_results.csv,116,,COMPLETED
+2012,T20I,2012-09-21,Bangladesh,New Zealand,New Zealand,59 runs,Pallekele,T20I # 267,all_t20_world_cup_matches_results.csv,59,,COMPLETED
+2012,T20I,2012-09-20,South Africa,Zimbabwe,South Africa,10 wickets,Hambantota,T20I # 266,all_t20_world_cup_matches_results.csv,,10,COMPLETED
+2012,T20I,2012-09-19,Afghanistan,India,India,23 runs,Colombo (RPS),T20I # 265,all_t20_world_cup_matches_results.csv,23,,COMPLETED
+2012,T20I,2012-09-19,Australia,Ireland,Australia,7 wickets,Colombo (RPS),T20I # 264,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2012,T20I,2012-09-18,Sri Lanka,Zimbabwe,Sri Lanka,82 runs,Hambantota,T20I # 263,all_t20_world_cup_matches_results.csv,82,,COMPLETED
+2014,T20I,2014-04-06,India,Sri Lanka,Sri Lanka,6 wickets,Mirpur,T20I # 400,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2014,T20I,2014-04-04,India,South Africa,India,6 wickets,Mirpur,T20I # 399,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2014,T20I,2014-04-03,Sri Lanka,West Indies,Sri Lanka,27 runs,Mirpur,T20I # 398,all_t20_world_cup_matches_results.csv,27,,COMPLETED
+2014,T20I,2014-04-01,Pakistan,West Indies,West Indies,84 runs,Mirpur,T20I # 397,all_t20_world_cup_matches_results.csv,84,,COMPLETED
+2014,T20I,2014-04-01,Bangladesh,Australia,Australia,7 wickets,Mirpur,T20I # 396,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2014,T20I,2014-03-31,New Zealand,Sri Lanka,Sri Lanka,59 runs,Chattogram,T20I # 395,all_t20_world_cup_matches_results.csv,59,,COMPLETED
+2014,T20I,2014-03-31,England,Netherlands,Netherlands,45 runs,Chattogram,T20I # 394,all_t20_world_cup_matches_results.csv,45,,COMPLETED
+2014,T20I,2014-03-30,Australia,India,India,73 runs,Mirpur,T20I # 393,all_t20_world_cup_matches_results.csv,73,,COMPLETED
+2014,T20I,2014-03-30,Bangladesh,Pakistan,Pakistan,50 runs,Mirpur,T20I # 392,all_t20_world_cup_matches_results.csv,50,,COMPLETED
+2014,T20I,2014-03-29,England,South Africa,South Africa,3 runs,Chattogram,T20I # 391,all_t20_world_cup_matches_results.csv,3,,COMPLETED
+2014,T20I,2014-03-29,Netherlands,New Zealand,New Zealand,6 wickets,Chattogram,T20I # 390,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2014,T20I,2014-03-28,Bangladesh,India,India,8 wickets,Mirpur,T20I # 389,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2014,T20I,2014-03-28,Australia,West Indies,West Indies,6 wickets,Mirpur,T20I # 388,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2014,T20I,2014-03-27,England,Sri Lanka,England,6 wickets,Chattogram,T20I # 387,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2014,T20I,2014-03-27,Netherlands,South Africa,South Africa,6 runs,Chattogram,T20I # 386,all_t20_world_cup_matches_results.csv,6,,COMPLETED
+2014,T20I,2014-03-25,Bangladesh,West Indies,West Indies,73 runs,Mirpur,T20I # 385,all_t20_world_cup_matches_results.csv,73,,COMPLETED
+2014,T20I,2014-03-24,Netherlands,Sri Lanka,Sri Lanka,9 wickets,Chattogram,T20I # 384,all_t20_world_cup_matches_results.csv,,9,COMPLETED
+2014,T20I,2014-03-24,New Zealand,South Africa,South Africa,2 runs,Chattogram,T20I # 383,all_t20_world_cup_matches_results.csv,2,,COMPLETED
+2014,T20I,2014-03-23,India,West Indies,India,7 wickets,Mirpur,T20I # 382,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2014,T20I,2014-03-23,Australia,Pakistan,Pakistan,16 runs,Mirpur,T20I # 381,all_t20_world_cup_matches_results.csv,16,,COMPLETED
+2014,T20I,2014-03-22,England,New Zealand,New Zealand,9 runs,Chattogram,T20I # 380,all_t20_world_cup_matches_results.csv,9,,COMPLETED
+2014,T20I,2014-03-22,South Africa,Sri Lanka,Sri Lanka,5 runs,Chattogram,T20I # 379,all_t20_world_cup_matches_results.csv,5,,COMPLETED
+2014,T20I,2014-03-21,India,Pakistan,India,7 wickets,Mirpur,T20I # 378,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2014,T20I,2014-03-21,Ireland,Netherlands,Netherlands,6 wickets,Sylhet,T20I # 377,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2014,T20I,2014-03-21,United Arab Emirates,Zimbabwe,Zimbabwe,5 wickets,Sylhet,T20I # 376,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2014,T20I,2014-03-20,Bangladesh,Hong Kong,Hong Kong,2 wickets,Chattogram,T20I # 375,all_t20_world_cup_matches_results.csv,,2,COMPLETED
+2014,T20I,2014-03-20,Afghanistan,Nepal,Nepal,9 runs,Chattogram,T20I # 374,all_t20_world_cup_matches_results.csv,9,,COMPLETED
+2014,T20I,2014-03-19,Ireland,United Arab Emirates,Ireland,21 runs,Sylhet,T20I # 373,all_t20_world_cup_matches_results.csv,21,,COMPLETED
+2014,T20I,2014-03-19,Netherlands,Zimbabwe,Zimbabwe,5 wickets,Sylhet,T20I # 372,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2014,T20I,2014-03-18,Bangladesh,Nepal,Bangladesh,8 wickets,Chattogram,T20I # 371,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2014,T20I,2014-03-18,Afghanistan,Hong Kong,Afghanistan,7 wickets,Chattogram,T20I # 370,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2014,T20I,2014-03-17,Netherlands,United Arab Emirates,Netherlands,6 wickets,Sylhet,T20I # 369,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2014,T20I,2014-03-17,Ireland,Zimbabwe,Ireland,3 wickets,Sylhet,T20I # 368,all_t20_world_cup_matches_results.csv,,3,COMPLETED
+2014,T20I,2014-03-16,Hong Kong,Nepal,Nepal,80 runs,Chattogram,T20I # 367,all_t20_world_cup_matches_results.csv,80,,COMPLETED
+2014,T20I,2014-03-16,Bangladesh,Afghanistan,Bangladesh,9 wickets,Mirpur,T20I # 366,all_t20_world_cup_matches_results.csv,,9,COMPLETED
+2016,T20I,2016-04-03,England,West Indies,West Indies,4 wickets,Eden Gardens,T20I # 557,all_t20_world_cup_matches_results.csv,,4,COMPLETED
+2016,T20I,2016-03-31,India,West Indies,West Indies,7 wickets,Wankhede,T20I # 556,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2016,T20I,2016-03-30,England,New Zealand,England,7 wickets,Delhi,T20I # 555,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2016,T20I,2016-03-28,South Africa,Sri Lanka,South Africa,8 wickets,Delhi,T20I # 554,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2016,T20I,2016-03-27,India,Australia,India,6 wickets,Mohali,T20I # 553,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2016,T20I,2016-03-27,Afghanistan,West Indies,Afghanistan,6 runs,Nagpur,T20I # 552,all_t20_world_cup_matches_results.csv,6,,COMPLETED
+2016,T20I,2016-03-26,England,Sri Lanka,England,10 runs,Delhi,T20I # 551,all_t20_world_cup_matches_results.csv,10,,COMPLETED
+2016,T20I,2016-03-26,Bangladesh,New Zealand,New Zealand,75 runs,Eden Gardens,T20I # 550,all_t20_world_cup_matches_results.csv,75,,COMPLETED
+2016,T20I,2016-03-25,South Africa,West Indies,West Indies,3 wickets,Nagpur,T20I # 549,all_t20_world_cup_matches_results.csv,,3,COMPLETED
+2016,T20I,2016-03-25,Australia,Pakistan,Australia,21 runs,Mohali,T20I # 548,all_t20_world_cup_matches_results.csv,21,,COMPLETED
+2016,T20I,2016-03-23,India,Bangladesh,India,1 run,Bengaluru,T20I # 547,all_t20_world_cup_matches_results.csv,1,,COMPLETED
+2016,T20I,2016-03-23,Afghanistan,England,England,15 runs,Delhi,T20I # 546,all_t20_world_cup_matches_results.csv,15,,COMPLETED
+2016,T20I,2016-03-22,New Zealand,Pakistan,New Zealand,22 runs,Mohali,T20I # 545,all_t20_world_cup_matches_results.csv,22,,COMPLETED
+2016,T20I,2016-03-21,Australia,Bangladesh,Australia,3 wickets,Bengaluru,T20I # 544,all_t20_world_cup_matches_results.csv,,3,COMPLETED
+2016,T20I,2016-03-20,Sri Lanka,West Indies,West Indies,7 wickets,Bengaluru,T20I # 543,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2016,T20I,2016-03-20,Afghanistan,South Africa,South Africa,37 runs,Wankhede,T20I # 542,all_t20_world_cup_matches_results.csv,37,,COMPLETED
+2016,T20I,2016-03-19,India,Pakistan,India,6 wickets,Eden Gardens,T20I # 541,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2016,T20I,2016-03-18,England,South Africa,England,2 wickets,Wankhede,T20I # 540,all_t20_world_cup_matches_results.csv,,2,COMPLETED
+2016,T20I,2016-03-18,Australia,New Zealand,New Zealand,8 runs,Dharamsala,T20I # 539,all_t20_world_cup_matches_results.csv,8,,COMPLETED
+2016,T20I,2016-03-17,Afghanistan,Sri Lanka,Sri Lanka,6 wickets,Eden Gardens,T20I # 538,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2016,T20I,2016-03-16,England,West Indies,West Indies,6 wickets,Wankhede,T20I # 537,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2016,T20I,2016-03-16,Bangladesh,Pakistan,Pakistan,55 runs,Eden Gardens,T20I # 536,all_t20_world_cup_matches_results.csv,55,,COMPLETED
+2016,T20I,2016-03-15,India,New Zealand,New Zealand,47 runs,Nagpur,T20I # 535,all_t20_world_cup_matches_results.csv,47,,COMPLETED
+2016,T20I,2016-03-13,Bangladesh,Oman,Bangladesh,54 runs,Dharamsala,T20I # 534,all_t20_world_cup_matches_results.csv,54,,COMPLETED
+2016,T20I,2016-03-13,Ireland,Netherlands,Netherlands,12 runs,Dharamsala,T20I # 533,all_t20_world_cup_matches_results.csv,12,,COMPLETED
+2016,T20I,2016-03-12,Hong Kong,Scotland,Scotland,8 wickets,Nagpur,T20I # 532,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2016,T20I,2016-03-12,Afghanistan,Zimbabwe,Afghanistan,59 runs,Nagpur,T20I # 531,all_t20_world_cup_matches_results.csv,59,,COMPLETED
+2016,T20I,2016-03-11,Bangladesh,Ireland,no result,-,Dharamsala,T20I # 530,all_t20_world_cup_matches_results.csv,,,NO RESULT
+2016,T20I,2016-03-11,Netherlands,Oman,no result,-,Dharamsala,T20I # 529,all_t20_world_cup_matches_results.csv,,,NO RESULT
+2016,T20I,2016-03-10,Afghanistan,Hong Kong,Afghanistan,6 wickets,Nagpur,T20I # 528,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2016,T20I,2016-03-10,Scotland,Zimbabwe,Zimbabwe,11 runs,Nagpur,T20I # 527,all_t20_world_cup_matches_results.csv,11,,COMPLETED
+2016,T20I,2016-03-09,Ireland,Oman,Oman,2 wickets,Dharamsala,T20I # 525,all_t20_world_cup_matches_results.csv,,2,COMPLETED
+2016,T20I,2016-03-09,Bangladesh,Netherlands,Bangladesh,8 runs,Dharamsala,T20I # 524,all_t20_world_cup_matches_results.csv,8,,COMPLETED
+2016,T20I,2016-03-08,Afghanistan,Scotland,Afghanistan,14 runs,Nagpur,T20I # 523,all_t20_world_cup_matches_results.csv,14,,COMPLETED
+2016,T20I,2016-03-08,Hong Kong,Zimbabwe,Zimbabwe,14 runs,Nagpur,T20I # 522,all_t20_world_cup_matches_results.csv,14,,COMPLETED
+2021,T20I,2021-11-14,Australia,New Zealand,Australia,8 wickets,Dubai (DICS),T20I # 1428,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2021,T20I,2021-11-11,Australia,Pakistan,Australia,5 wickets,Dubai (DICS),T20I # 1420,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2021,T20I,2021-11-10,England,New Zealand,New Zealand,5 wickets,Abu Dhabi,T20I # 1415,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2021,T20I,2021-11-08,India,Namibia,India,9 wickets,Dubai (DICS),T20I # 1410,all_t20_world_cup_matches_results.csv,,9,COMPLETED
+2021,T20I,2021-11-07,Pakistan,Scotland,Pakistan,72 runs,Sharjah,T20I # 1406,all_t20_world_cup_matches_results.csv,72,,COMPLETED
+2021,T20I,2021-11-07,Afghanistan,New Zealand,New Zealand,8 wickets,Abu Dhabi,T20I # 1402,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2021,T20I,2021-11-06,England,South Africa,South Africa,10 runs,Sharjah,T20I # 1400,all_t20_world_cup_matches_results.csv,10,,COMPLETED
+2021,T20I,2021-11-06,Australia,West Indies,Australia,8 wickets,Abu Dhabi,T20I # 1398,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2021,T20I,2021-11-05,India,Scotland,India,8 wickets,Dubai (DICS),T20I # 1396,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2021,T20I,2021-11-05,Namibia,New Zealand,New Zealand,52 runs,Sharjah,T20I # 1394,all_t20_world_cup_matches_results.csv,52,,COMPLETED
+2021,T20I,2021-11-04,Sri Lanka,West Indies,Sri Lanka,20 runs,Abu Dhabi,T20I # 1392,all_t20_world_cup_matches_results.csv,20,,COMPLETED
+2021,T20I,2021-11-04,Australia,Bangladesh,Australia,8 wickets,Dubai (DICS),T20I # 1391,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2021,T20I,2021-11-03,Afghanistan,India,India,66 runs,Abu Dhabi,T20I # 1390,all_t20_world_cup_matches_results.csv,66,,COMPLETED
+2021,T20I,2021-11-03,New Zealand,Scotland,New Zealand,16 runs,Dubai (DICS),T20I # 1388,all_t20_world_cup_matches_results.csv,16,,COMPLETED
+2021,T20I,2021-11-02,Namibia,Pakistan,Pakistan,45 runs,Abu Dhabi,T20I # 1386,all_t20_world_cup_matches_results.csv,45,,COMPLETED
+2021,T20I,2021-11-02,Bangladesh,South Africa,South Africa,6 wickets,Abu Dhabi,T20I # 1384,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2021,T20I,2021-11-01,England,Sri Lanka,England,26 runs,Sharjah,T20I # 1382,all_t20_world_cup_matches_results.csv,26,,COMPLETED
+2021,T20I,2021-10-31,India,New Zealand,New Zealand,8 wickets,Dubai (DICS),T20I # 1381,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2021,T20I,2021-10-31,Afghanistan,Namibia,Afghanistan,62 runs,Abu Dhabi,T20I # 1380,all_t20_world_cup_matches_results.csv,62,,COMPLETED
+2021,T20I,2021-10-30,Australia,England,England,8 wickets,Dubai (DICS),T20I # 1379,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2021,T20I,2021-10-30,South Africa,Sri Lanka,South Africa,4 wickets,Sharjah,T20I # 1378,all_t20_world_cup_matches_results.csv,,4,COMPLETED
+2021,T20I,2021-10-29,Afghanistan,Pakistan,Pakistan,5 wickets,Dubai (DICS),T20I # 1377,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2021,T20I,2021-10-29,Bangladesh,West Indies,West Indies,3 runs,Sharjah,T20I # 1375,all_t20_world_cup_matches_results.csv,3,,COMPLETED
+2021,T20I,2021-10-28,Australia,Sri Lanka,Australia,7 wickets,Dubai (DICS),T20I # 1374,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2021,T20I,2021-10-27,Namibia,Scotland,Namibia,4 wickets,Abu Dhabi,T20I # 1371,all_t20_world_cup_matches_results.csv,,4,COMPLETED
+2021,T20I,2021-10-27,Bangladesh,England,England,8 wickets,Abu Dhabi,T20I # 1369,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2021,T20I,2021-10-26,New Zealand,Pakistan,Pakistan,5 wickets,Sharjah,T20I # 1367,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2021,T20I,2021-10-26,South Africa,West Indies,South Africa,8 wickets,Dubai (DICS),T20I # 1366,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2021,T20I,2021-10-25,Afghanistan,Scotland,Afghanistan,130 runs,Sharjah,T20I # 1364,all_t20_world_cup_matches_results.csv,130,,COMPLETED
+2021,T20I,2021-10-24,India,Pakistan,Pakistan,10 wickets,Dubai (DICS),T20I # 1361,all_t20_world_cup_matches_results.csv,,10,COMPLETED
+2021,T20I,2021-10-24,Bangladesh,Sri Lanka,Sri Lanka,5 wickets,Sharjah,T20I # 1357,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2021,T20I,2021-10-23,England,West Indies,England,6 wickets,Dubai (DICS),T20I # 1354,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2021,T20I,2021-10-23,Australia,South Africa,Australia,5 wickets,Abu Dhabi,T20I # 1351,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2021,T20I,2021-10-22,Netherlands,Sri Lanka,Sri Lanka,8 wickets,Sharjah,T20I # 1346,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2021,T20I,2021-10-22,Ireland,Namibia,Namibia,8 wickets,Sharjah,T20I # 1342,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2021,T20I,2021-10-21,Oman,Scotland,Scotland,8 wickets,Al Amerat,T20I # 1338,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2021,T20I,2021-10-21,Bangladesh,Papua New Guinea,Bangladesh,84 runs,Al Amerat,T20I # 1334,all_t20_world_cup_matches_results.csv,84,,COMPLETED
+2021,T20I,2021-10-20,Ireland,Sri Lanka,Sri Lanka,70 runs,Abu Dhabi,T20I # 1331,all_t20_world_cup_matches_results.csv,70,,COMPLETED
+2021,T20I,2021-10-20,Namibia,Netherlands,Namibia,6 wickets,Abu Dhabi,T20I # 1327,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2021,T20I,2021-10-19,Oman,Bangladesh,Bangladesh,26 runs,Al Amerat,T20I # 1322,all_t20_world_cup_matches_results.csv,26,,COMPLETED
+2021,T20I,2021-10-19,Papua New Guinea,Scotland,Scotland,17 runs,Al Amerat,T20I # 1318,all_t20_world_cup_matches_results.csv,17,,COMPLETED
+2021,T20I,2021-10-18,Namibia,Sri Lanka,Sri Lanka,7 wickets,Abu Dhabi,T20I # 1313,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2021,T20I,2021-10-18,Ireland,Netherlands,Ireland,7 wickets,Abu Dhabi,T20I # 1312,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2021,T20I,2021-10-17,Bangladesh,Scotland,Scotland,6 runs,Al Amerat,T20I # 1311,all_t20_world_cup_matches_results.csv,6,,COMPLETED
+2021,T20I,2021-10-17,Oman,Papua New Guinea,Oman,10 wickets,Al Amerat,T20I # 1307,all_t20_world_cup_matches_results.csv,,10,COMPLETED
+2022,T20I,2022-11-13,England,Pakistan,England,5 wickets,Melbourne,T20I # 1879,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2022,T20I,2022-11-10,England,India,England,10 wickets,Adelaide,T20I # 1878,all_t20_world_cup_matches_results.csv,,10,COMPLETED
+2022,T20I,2022-11-09,New Zealand,Pakistan,Pakistan,7 wickets,Sydney,T20I # 1877,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2022,T20I,2022-11-06,India,Zimbabwe,India,71 runs,Melbourne,T20I # 1873,all_t20_world_cup_matches_results.csv,71,,COMPLETED
+2022,T20I,2022-11-06,Bangladesh,Pakistan,Pakistan,5 wickets,Adelaide,T20I # 1872,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2022,T20I,2022-11-06,Netherlands,South Africa,Netherlands,13 runs,Adelaide,T20I # 1871,all_t20_world_cup_matches_results.csv,13,,COMPLETED
+2022,T20I,2022-11-05,England,Sri Lanka,England,4 wickets,Sydney,T20I # 1867,all_t20_world_cup_matches_results.csv,,4,COMPLETED
+2022,T20I,2022-11-04,Australia,Afghanistan,Australia,4 runs,Adelaide,T20I # 1864,all_t20_world_cup_matches_results.csv,4,,COMPLETED
+2022,T20I,2022-11-04,Ireland,New Zealand,New Zealand,35 runs,Adelaide,T20I # 1862,all_t20_world_cup_matches_results.csv,35,,COMPLETED
+2022,T20I,2022-11-03,Pakistan,South Africa,Pakistan,33 runs,Sydney,T20I # 1861,all_t20_world_cup_matches_results.csv,33,,COMPLETED
+2022,T20I,2022-11-02,Bangladesh,India,India,5 runs,Adelaide,T20I # 1860,all_t20_world_cup_matches_results.csv,5,,COMPLETED
+2022,T20I,2022-11-02,Netherlands,Zimbabwe,Netherlands,5 wickets,Adelaide,T20I # 1859,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2022,T20I,2022-11-01,England,New Zealand,England,20 runs,Brisbane,T20I # 1858,all_t20_world_cup_matches_results.csv,20,,COMPLETED
+2022,T20I,2022-11-01,Afghanistan,Sri Lanka,Sri Lanka,6 wickets,Brisbane,T20I # 1856,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2022,T20I,2022-10-31,Australia,Ireland,Australia,42 runs,Brisbane,T20I # 1855,all_t20_world_cup_matches_results.csv,42,,COMPLETED
+2022,T20I,2022-10-30,India,South Africa,South Africa,5 wickets,Perth,T20I # 1853,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2022,T20I,2022-10-30,Netherlands,Pakistan,Pakistan,6 wickets,Perth,T20I # 1852,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2022,T20I,2022-10-30,Bangladesh,Zimbabwe,Bangladesh,3 runs,Brisbane,T20I # 1851,all_t20_world_cup_matches_results.csv,3,,COMPLETED
+2022,T20I,2022-10-29,New Zealand,Sri Lanka,New Zealand,65 runs,Sydney,T20I # 1850,all_t20_world_cup_matches_results.csv,65,,COMPLETED
+2022,T20I,2022-10-27,Pakistan,Zimbabwe,Zimbabwe,1 run,Perth,T20I # 1849,all_t20_world_cup_matches_results.csv,1,,COMPLETED
+2022,T20I,2022-10-27,India,Netherlands,India,56 runs,Sydney,T20I # 1848,all_t20_world_cup_matches_results.csv,56,,COMPLETED
+2022,T20I,2022-10-27,Bangladesh,South Africa,South Africa,104 runs,Sydney,T20I # 1847,all_t20_world_cup_matches_results.csv,104,,COMPLETED
+2022,T20I,2022-10-26,England,Ireland,Ireland,5 runs,Melbourne,T20I # 1846,all_t20_world_cup_matches_results.csv,5,,COMPLETED
+2022,T20I,2022-10-25,Australia,Sri Lanka,Australia,7 wickets,Perth,T20I # 1845,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2022,T20I,2022-10-24,South Africa,Zimbabwe,no result,-,Hobart,T20I # 1844,all_t20_world_cup_matches_results.csv,,,NO RESULT
+2022,T20I,2022-10-24,Bangladesh,Netherlands,Bangladesh,9 runs,Hobart,T20I # 1843,all_t20_world_cup_matches_results.csv,9,,COMPLETED
+2022,T20I,2022-10-23,India,Pakistan,India,4 wickets,Melbourne,T20I # 1842,all_t20_world_cup_matches_results.csv,,4,COMPLETED
+2022,T20I,2022-10-23,Ireland,Sri Lanka,Sri Lanka,9 wickets,Hobart,T20I # 1841,all_t20_world_cup_matches_results.csv,,9,COMPLETED
+2022,T20I,2022-10-22,Afghanistan,England,England,5 wickets,Perth,T20I # 1840,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2022,T20I,2022-10-22,Australia,New Zealand,New Zealand,89 runs,Sydney,T20I # 1839,all_t20_world_cup_matches_results.csv,89,,COMPLETED
+2022,T20I,2022-10-21,Scotland,Zimbabwe,Zimbabwe,5 wickets,Hobart,T20I # 1838,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2022,T20I,2022-10-21,Ireland,West Indies,Ireland,9 wickets,Hobart,T20I # 1837,all_t20_world_cup_matches_results.csv,,9,COMPLETED
+2022,T20I,2022-10-20,Namibia,United Arab Emirates,United Arab Emirates,7 runs,Geelong,T20I # 1836,all_t20_world_cup_matches_results.csv,7,,COMPLETED
+2022,T20I,2022-10-20,Netherlands,Sri Lanka,Sri Lanka,16 runs,Geelong,T20I # 1835,all_t20_world_cup_matches_results.csv,16,,COMPLETED
+2022,T20I,2022-10-19,West Indies,Zimbabwe,West Indies,31 runs,Hobart,T20I # 1834,all_t20_world_cup_matches_results.csv,31,,COMPLETED
+2022,T20I,2022-10-19,Ireland,Scotland,Ireland,6 wickets,Hobart,T20I # 1833,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2022,T20I,2022-10-18,Sri Lanka,United Arab Emirates,Sri Lanka,79 runs,Geelong,T20I # 1832,all_t20_world_cup_matches_results.csv,79,,COMPLETED
+2022,T20I,2022-10-18,Namibia,Netherlands,Netherlands,5 wickets,Geelong,T20I # 1830,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2022,T20I,2022-10-17,Ireland,Zimbabwe,Zimbabwe,31 runs,Hobart,T20I # 1828,all_t20_world_cup_matches_results.csv,31,,COMPLETED
+2022,T20I,2022-10-17,Scotland,West Indies,Scotland,42 runs,Hobart,T20I # 1826,all_t20_world_cup_matches_results.csv,42,,COMPLETED
+2022,T20I,2022-10-16,Netherlands,United Arab Emirates,Netherlands,3 wickets,Geelong,T20I # 1825,all_t20_world_cup_matches_results.csv,,3,COMPLETED
+2022,T20I,2022-10-16,Namibia,Sri Lanka,Namibia,55 runs,Geelong,T20I # 1823,all_t20_world_cup_matches_results.csv,55,,COMPLETED
+2024,T20I,2024-06-29,India,South Africa,India,7 runs,Bridgetown,T20I # 2729,all_t20_world_cup_matches_results.csv,7,,COMPLETED
+2024,T20I,2024-06-27,England,India,India,68 runs,Providence,T20I # 2724,all_t20_world_cup_matches_results.csv,68,,COMPLETED
+2024,T20I,2024-06-26,Afghanistan,South Africa,South Africa,9 wickets,Tarouba,T20I # 2723,all_t20_world_cup_matches_results.csv,,9,COMPLETED
+2024,T20I,2024-06-24,Afghanistan,Bangladesh,Afghanistan,8 runs,Kingstown,T20I # 2722,all_t20_world_cup_matches_results.csv,8,,COMPLETED
+2024,T20I,2024-06-24,Australia,India,India,24 runs,Gros Islet,T20I # 2721,all_t20_world_cup_matches_results.csv,24,,COMPLETED
+2024,T20I,2024-06-23,West Indies,South Africa,South Africa,3 wickets,North Sound,T20I # 2720,all_t20_world_cup_matches_results.csv,,3,COMPLETED
+2024,T20I,2024-06-23,England,United States of America,England,10 wickets,Bridgetown,T20I # 2719,all_t20_world_cup_matches_results.csv,,10,COMPLETED
+2024,T20I,2024-06-22,Afghanistan,Australia,Afghanistan,21 runs,Kingstown,T20I # 2717,all_t20_world_cup_matches_results.csv,21,,COMPLETED
+2024,T20I,2024-06-22,Bangladesh,India,India,50 runs,North Sound,T20I # 2716,all_t20_world_cup_matches_results.csv,50,,COMPLETED
+2024,T20I,2024-06-21,West Indies,United States of America,West Indies,9 wickets,Bridgetown,T20I # 2713,all_t20_world_cup_matches_results.csv,,9,COMPLETED
+2024,T20I,2024-06-21,England,South Africa,South Africa,7 runs,Gros Islet,T20I # 2712,all_t20_world_cup_matches_results.csv,7,,COMPLETED
+2024,T20I,2024-06-20,Australia,Bangladesh,Australia,28 runs,North Sound,T20I # 2711,all_t20_world_cup_matches_results.csv,28,,COMPLETED
+2024,T20I,2024-06-20,Afghanistan,India,India,47 runs,Bridgetown,T20I # 2710,all_t20_world_cup_matches_results.csv,47,,COMPLETED
+2024,T20I,2024-06-19,West Indies,England,England,8 wickets,Gros Islet,T20I # 2709,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2024,T20I,2024-06-19,South Africa,United States of America,South Africa,18 runs,North Sound,T20I # 2708,all_t20_world_cup_matches_results.csv,18,,COMPLETED
+2024,T20I,2024-06-17,West Indies,Afghanistan,West Indies,104 runs,Gros Islet,T20I # 2703,all_t20_world_cup_matches_results.csv,104,,COMPLETED
+2024,T20I,2024-06-17,New Zealand,Papua New Guinea,New Zealand,7 wickets,Tarouba,T20I # 2702,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2024,T20I,2024-06-16,Netherlands,Sri Lanka,Sri Lanka,83 runs,Gros Islet,T20I # 2699,all_t20_world_cup_matches_results.csv,83,,COMPLETED
+2024,T20I,2024-06-16,Bangladesh,Nepal,Bangladesh,21 runs,Kingstown,T20I # 2698,all_t20_world_cup_matches_results.csv,21,,COMPLETED
+2024,T20I,2024-06-16,Ireland,Pakistan,Pakistan,3 wickets,Lauderhill,T20I # 2697,all_t20_world_cup_matches_results.csv,,3,COMPLETED
+2024,T20I,2024-06-15,Australia,Scotland,Australia,5 wickets,Gros Islet,T20I # 2689,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2024,T20I,2024-06-15,England,Namibia,England,41 runs,North Sound,T20I # 2688,all_t20_world_cup_matches_results.csv,41,,COMPLETED
+2024,T20I,2024-06-14,New Zealand,Uganda,New Zealand,9 wickets,Tarouba,T20I # 2682,all_t20_world_cup_matches_results.csv,,9,COMPLETED
+2024,T20I,2024-06-14,Nepal,South Africa,South Africa,1 run,Kingstown,T20I # 2681,all_t20_world_cup_matches_results.csv,1,,COMPLETED
+2024,T20I,2024-06-13,Afghanistan,Papua New Guinea,Afghanistan,7 wickets,Tarouba,T20I # 2679,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2024,T20I,2024-06-13,England,Oman,England,8 wickets,North Sound,T20I # 2678,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2024,T20I,2024-06-13,Bangladesh,Netherlands,Bangladesh,25 runs,Kingstown,T20I # 2677,all_t20_world_cup_matches_results.csv,25,,COMPLETED
+2024,T20I,2024-06-12,West Indies,New Zealand,West Indies,13 runs,Tarouba,T20I # 2672,all_t20_world_cup_matches_results.csv,13,,COMPLETED
+2024,T20I,2024-06-12,United States of America,India,India,7 wickets,New York,T20I # 2671,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2024,T20I,2024-06-11,Australia,Namibia,Australia,9 wickets,North Sound,T20I # 2666,all_t20_world_cup_matches_results.csv,,9,COMPLETED
+2024,T20I,2024-06-11,Canada,Pakistan,Pakistan,7 wickets,New York,T20I # 2665,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2024,T20I,2024-06-10,Bangladesh,South Africa,South Africa,4 runs,New York,T20I # 2664,all_t20_world_cup_matches_results.csv,4,,COMPLETED
+2024,T20I,2024-06-09,Oman,Scotland,Scotland,7 wickets,North Sound,T20I # 2659,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2024,T20I,2024-06-09,India,Pakistan,India,6 runs,New York,T20I # 2658,all_t20_world_cup_matches_results.csv,6,,COMPLETED
+2024,T20I,2024-06-08,West Indies,Uganda,West Indies,134 runs,Providence,T20I # 2651,all_t20_world_cup_matches_results.csv,134,,COMPLETED
+2024,T20I,2024-06-08,Australia,England,Australia,36 runs,Bridgetown,T20I # 2650,all_t20_world_cup_matches_results.csv,36,,COMPLETED
+2024,T20I,2024-06-08,Netherlands,South Africa,South Africa,4 wickets,New York,T20I # 2649,all_t20_world_cup_matches_results.csv,,4,COMPLETED
+2024,T20I,2024-06-07,Bangladesh,Sri Lanka,Bangladesh,2 wickets,Dallas,T20I # 2646,all_t20_world_cup_matches_results.csv,,2,COMPLETED
+2024,T20I,2024-06-07,Afghanistan,New Zealand,Afghanistan,84 runs,Providence,T20I # 2645,all_t20_world_cup_matches_results.csv,84,,COMPLETED
+2024,T20I,2024-06-07,Canada,Ireland,Canada,12 runs,New York,T20I # 2644,all_t20_world_cup_matches_results.csv,12,,COMPLETED
+2024,T20I,2024-06-06,Namibia,Scotland,Scotland,5 wickets,Bridgetown,T20I # 2643,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2024,T20I,2024-06-06,United States of America,Pakistan,United States of America,Super Over,Dallas,T20I # 2642,all_t20_world_cup_matches_results.csv,,,SUPER OVER
+2024,T20I,2024-06-05,Australia,Oman,Australia,39 runs,Bridgetown,T20I # 2641,all_t20_world_cup_matches_results.csv,39,,COMPLETED
+2024,T20I,2024-06-05,Papua New Guinea,Uganda,Uganda,3 wickets,Providence,T20I # 2640,all_t20_world_cup_matches_results.csv,,3,COMPLETED
+2024,T20I,2024-06-05,India,Ireland,India,8 wickets,New York,T20I # 2639,all_t20_world_cup_matches_results.csv,,8,COMPLETED
+2024,T20I,2024-06-04,Nepal,Netherlands,Netherlands,6 wickets,Dallas,T20I # 2638,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2024,T20I,2024-06-04,England,Scotland,no result,-,Bridgetown,T20I # 2637,all_t20_world_cup_matches_results.csv,,,NO RESULT
+2024,T20I,2024-06-03,Afghanistan,Uganda,Afghanistan,125 runs,Providence,T20I # 2636,all_t20_world_cup_matches_results.csv,125,,COMPLETED
+2024,T20I,2024-06-03,South Africa,Sri Lanka,South Africa,6 wickets,New York,T20I # 2635,all_t20_world_cup_matches_results.csv,,6,COMPLETED
+2024,T20I,2024-06-02,Namibia,Oman,Namibia,Super Over,Bridgetown,T20I # 2634,all_t20_world_cup_matches_results.csv,,,SUPER OVER
+2024,T20I,2024-06-02,West Indies,Papua New Guinea,West Indies,5 wickets,Providence,T20I # 2633,all_t20_world_cup_matches_results.csv,,5,COMPLETED
+2024,T20I,2024-06-01,United States of America,Canada,United States of America,7 wickets,Dallas,T20I # 2632,all_t20_world_cup_matches_results.csv,,7,COMPLETED
+2024,T20I,2024-06-11,Nepal,Sri Lanka,,Abandoned,Lauderhill,,t20_worldCup.csv,,,ABANDONED
+2024,T20I,2024-06-14,United States of America,Ireland,,Abandoned,Lauderhill,,t20_worldCup.csv,,,ABANDONED
+2024,T20I,2024-06-15,Canada,India,,Abandoned,Lauderhill,,t20_worldCup.csv,,,ABANDONED

@@ -1,0 +1,100 @@
+FORMAT,YEAR,TEAM1,TEAM2,VENUE,ACTUAL_TEAM1_WIN,PREDICTED_TEAM1_WIN,TEAM1_WIN_PROBABILITY,CORRECT
+ODI,2023,India,Australia,Ahmedabad,0,1,0.6584,False
+ODI,2023,Australia,South Africa,Eden Gardens,1,1,0.5231,True
+ODI,2023,India,New Zealand,Wankhede,1,0,0.351,False
+ODI,2023,India,Netherlands,Bengaluru,1,1,0.7373,True
+ODI,2023,England,Pakistan,Eden Gardens,1,1,0.5228,True
+ODI,2023,Australia,Bangladesh,Pune,1,1,0.8404,True
+ODI,2023,Afghanistan,South Africa,Ahmedabad,0,0,0.3827,True
+ODI,2023,New Zealand,Sri Lanka,Bengaluru,1,0,0.3679,False
+ODI,2023,England,Netherlands,Pune,1,1,0.7695,True
+ODI,2023,Afghanistan,Australia,Wankhede,0,0,0.2586,True
+ODI,2023,Bangladesh,Sri Lanka,Delhi,1,0,0.4553,False
+ODI,2023,India,South Africa,Eden Gardens,1,1,0.5477,True
+ODI,2023,Australia,England,Ahmedabad,1,1,0.568,True
+ODI,2023,New Zealand,Pakistan,Bengaluru,0,0,0.3458,True
+ODI,2023,Afghanistan,Netherlands,Lucknow,1,1,0.5244,True
+ODI,2023,India,Sri Lanka,Wankhede,1,1,0.5239,True
+ODI,2023,New Zealand,South Africa,Pune,0,0,0.4099,True
+ODI,2023,Bangladesh,Pakistan,Eden Gardens,0,0,0.2168,True
+ODI,2023,Afghanistan,Sri Lanka,Pune,1,0,0.3874,False
+ODI,2023,India,England,Lucknow,1,1,0.592,True
+ODI,2023,Bangladesh,Netherlands,Eden Gardens,0,0,0.347,True
+ODI,2023,Australia,New Zealand,Dharamsala,1,0,0.4672,False
+ODI,2023,Pakistan,South Africa,Chennai,0,1,0.7163,False
+ODI,2023,England,Sri Lanka,Bengaluru,0,1,0.6113,False
+ODI,2023,Australia,Netherlands,Delhi,1,1,0.8425,True
+ODI,2023,Bangladesh,South Africa,Wankhede,0,0,0.2102,True
+ODI,2023,Afghanistan,Pakistan,Chennai,1,0,0.3648,False
+ODI,2023,India,New Zealand,Dharamsala,1,0,0.4919,False
+ODI,2023,England,South Africa,Wankhede,0,1,0.513,False
+ODI,2023,Netherlands,Sri Lanka,Lucknow,0,0,0.4147,True
+ODI,2023,Australia,Pakistan,Bengaluru,1,1,0.5699,True
+ODI,2023,India,Bangladesh,Pune,1,1,0.8532,True
+ODI,2023,Afghanistan,New Zealand,Chennai,0,0,0.2371,True
+ODI,2023,Netherlands,South Africa,Dharamsala,1,0,0.4108,False
+ODI,2023,Australia,Sri Lanka,Lucknow,1,1,0.6399,True
+ODI,2023,Afghanistan,England,Delhi,1,0,0.4469,False
+ODI,2023,India,Pakistan,Ahmedabad,1,1,0.6405,True
+ODI,2023,Bangladesh,New Zealand,Chennai,0,0,0.1922,True
+ODI,2023,Australia,South Africa,Lucknow,0,1,0.6352,False
+ODI,2023,India,Afghanistan,Delhi,1,1,0.9153,True
+ODI,2023,Pakistan,Sri Lanka,Hyderabad,1,1,0.7204,True
+ODI,2023,Bangladesh,England,Dharamsala,0,0,0.2645,True
+ODI,2023,Netherlands,New Zealand,Hyderabad,0,0,0.2583,True
+ODI,2023,India,Australia,Chennai,1,1,0.6584,True
+ODI,2023,South Africa,Sri Lanka,Delhi,1,1,0.8419,True
+ODI,2023,Afghanistan,Bangladesh,Dharamsala,0,1,0.653,False
+ODI,2023,Netherlands,Pakistan,Hyderabad,0,0,0.3915,True
+ODI,2023,England,New Zealand,Ahmedabad,0,0,0.4849,True
+T20I,2024,India,South Africa,Bridgetown,1,1,0.7302,True
+T20I,2024,England,India,Providence,0,1,0.7906,False
+T20I,2024,Afghanistan,South Africa,Tarouba,0,0,0.3369,True
+T20I,2024,Afghanistan,Bangladesh,Kingstown,1,1,0.6057,True
+T20I,2024,Australia,India,Gros Islet,0,1,0.5936,False
+T20I,2024,West Indies,South Africa,North Sound,0,0,0.4715,True
+T20I,2024,England,United States of America,Bridgetown,1,1,0.8134,True
+T20I,2024,Afghanistan,Australia,Kingstown,1,0,0.3376,False
+T20I,2024,Bangladesh,India,North Sound,0,0,0.2109,True
+T20I,2024,West Indies,United States of America,Bridgetown,1,1,0.7165,True
+T20I,2024,England,South Africa,Gros Islet,0,1,0.6961,False
+T20I,2024,Australia,Bangladesh,North Sound,1,1,0.8119,True
+T20I,2024,Afghanistan,India,Bridgetown,0,0,0.375,True
+T20I,2024,West Indies,England,Gros Islet,0,1,0.5006,False
+T20I,2024,South Africa,United States of America,North Sound,1,1,0.8034,True
+T20I,2024,West Indies,Afghanistan,Gros Islet,1,1,0.8122,True
+T20I,2024,New Zealand,Papua New Guinea,Tarouba,1,1,0.7191,True
+T20I,2024,Netherlands,Sri Lanka,Gros Islet,0,0,0.4636,True
+T20I,2024,Bangladesh,Nepal,Kingstown,1,0,0.4616,False
+T20I,2024,Ireland,Pakistan,Lauderhill,0,0,0.2395,True
+T20I,2024,Australia,Scotland,Gros Islet,1,1,0.8861,True
+T20I,2024,England,Namibia,North Sound,1,1,0.7702,True
+T20I,2024,New Zealand,Uganda,Tarouba,1,0,0.4844,False
+T20I,2024,Nepal,South Africa,Kingstown,0,0,0.4222,True
+T20I,2024,Afghanistan,Papua New Guinea,Tarouba,1,1,0.6955,True
+T20I,2024,England,Oman,North Sound,1,1,0.7525,True
+T20I,2024,Bangladesh,Netherlands,Kingstown,1,0,0.4089,False
+T20I,2024,West Indies,New Zealand,Tarouba,1,0,0.3091,False
+T20I,2024,United States of America,India,New York,0,0,0.3343,True
+T20I,2024,Australia,Namibia,North Sound,1,1,0.7567,True
+T20I,2024,Canada,Pakistan,New York,0,0,0.4037,True
+T20I,2024,Bangladesh,South Africa,New York,0,0,0.28,True
+T20I,2024,Oman,Scotland,North Sound,0,1,0.6391,False
+T20I,2024,India,Pakistan,New York,1,1,0.5935,True
+T20I,2024,West Indies,Uganda,Providence,1,1,0.84,True
+T20I,2024,Australia,England,Bridgetown,1,1,0.6493,True
+T20I,2024,Netherlands,South Africa,New York,0,0,0.3627,True
+T20I,2024,Bangladesh,Sri Lanka,Dallas,1,0,0.2841,False
+T20I,2024,Afghanistan,New Zealand,Providence,1,0,0.4763,False
+T20I,2024,Canada,Ireland,New York,1,1,0.5574,True
+T20I,2024,Namibia,Scotland,Bridgetown,0,1,0.7515,False
+T20I,2024,United States of America,Pakistan,Dallas,1,0,0.4037,False
+T20I,2024,Australia,Oman,Bridgetown,1,1,0.8289,True
+T20I,2024,Papua New Guinea,Uganda,Providence,0,1,0.7307,False
+T20I,2024,India,Ireland,New York,1,1,0.7309,True
+T20I,2024,Nepal,Netherlands,Dallas,0,1,0.5651,False
+T20I,2024,Afghanistan,Uganda,Providence,1,1,0.7494,True
+T20I,2024,South Africa,Sri Lanka,New York,1,1,0.7166,True
+T20I,2024,Namibia,Oman,Bridgetown,1,1,0.6201,True
+T20I,2024,West Indies,Papua New Guinea,Providence,1,1,0.9347,True
+T20I,2024,United States of America,Canada,Dallas,1,1,0.5465,True

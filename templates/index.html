@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricketVision AI | Match Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="brand">🏏 CricketVision <span>AI</span></div>
+
+        <nav>
+            <a class="active" href="/">Dashboard</a>
+            <a href="#predict">Match Prediction</a>
+            <a href="#about">About Project</a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <span class="status-dot"></span>
+            Prediction System Online
+        </div>
+    </aside>
+
+
+    <!-- Main Dashboard -->
+    <main class="main-content">
+
+        <header class="topbar">
+            <div>
+                <p class="eyebrow">CRICKET ANALYTICS PLATFORM</p>
+                <h1>Match Prediction Dashboard</h1>
+                <p class="subtitle">
+                    Predict match outcomes using historical World Cup data and machine learning.
+                </p>
+            </div>
+
+            <div class="model-status">● Model Active</div>
+        </header>
+
+
+        <!-- Statistics -->
+        <section class="stats-grid">
+
+            <div class="stat-card">
+                <p>Historical Matches</p>
+                <h2>821</h2>
+                <span>ODI + T20 World Cups</span>
+            </div>
+
+            <div class="stat-card">
+                <p>Prediction Model</p>
+                <h2>Logistic Regression</h2>
+                <span>Baseline model selected</span>
+            </div>
+
+            <div class="stat-card">
+                <p>Test Accuracy</p>
+                <h2>68.69%</h2>
+                <span>Historical test evaluation</span>
+            </div>
+
+        </section>
+
+
+        <!-- Prediction Section -->
+        <section class="prediction-section" id="predict">
+
+            <div class="section-heading">
+                <p class="eyebrow">AI POWERED ANALYSIS</p>
+                <h2>Predict Match Winner</h2>
+                <p>Select a tournament format and search for two teams.</p>
+            </div>
+
+
+            <form id="prediction-form">
+
+                <!-- Format Selector -->
+                <div class="format-selector">
+                    <label for="match-format">MATCH FORMAT</label>
+
+                    <select id="match-format" required>
+                        <option value="ODI">ODI World Cup</option>
+                        <option value="T20I">T20 World Cup</option>
+                    </select>
+                </div>
+
+
+                <!-- Team Selection -->
+                <div class="teams-grid">
+
+                    <div class="team-input">
+                        <label for="team1">TEAM 1</label>
+
+                        <input
+                            id="team1"
+                            type="text"
+                            list="team-list"
+                            placeholder="Search Team 1..."
+                            autocomplete="off"
+                            required
+                        >
+                    </div>
+
+                    <div class="versus">VS</div>
+
+                    <div class="team-input">
+                        <label for="team2">TEAM 2</label>
+
+                        <input
+                            id="team2"
+                            type="text"
+                            list="team-list"
+                            placeholder="Search Team 2..."
+                            autocomplete="off"
+                            required
+                        >
+                    </div>
+
+                </div>
+
+
+                <!-- Searchable Team Suggestions -->
+                <datalist id="team-list">
+                    <option value="Afghanistan">
+                    <option value="Australia">
+                    <option value="Bangladesh">
+                    <option value="Bermuda">
+                    <option value="Canada">
+                    <option value="England">
+                    <option value="India">
+                    <option value="Ireland">
+                    <option value="Kenya">
+                    <option value="Namibia">
+                    <option value="Nepal">
+                    <option value="Netherlands">
+                    <option value="New Zealand">
+                    <option value="Oman">
+                    <option value="Pakistan">
+                    <option value="Scotland">
+                    <option value="South Africa">
+                    <option value="Sri Lanka">
+                    <option value="United Arab Emirates">
+                    <option value="United States">
+                    <option value="West Indies">
+                    <option value="Zimbabwe">
+                </datalist>
+
+
+                <!-- Action Buttons -->
+                <div class="prediction-actions">
+
+                    <button type="submit" id="predict-btn">
+                        Generate Prediction →
+                    </button>
+
+                    <button type="button" id="refresh-btn">
+                        ↻ Refresh
+                    </button>
+
+                </div>
+
+            </form>
+
+
+            <!-- Prediction Result -->
+            <div id="result" class="result-panel hidden">
+
+                <h3>Prediction Results</h3>
+
+                <div class="result-teams">
+
+                    <div>
+                        <p id="result-team1">Team 1</p>
+                        <h2 id="probability1">0%</h2>
+                    </div>
+
+                    <div>
+                        <p id="result-team2">Team 2</p>
+                        <h2 id="probability2">0%</h2>
+                    </div>
+
+                </div>
+
+                <div class="probability-track">
+                    <div id="bar-team1"></div>
+                    <div id="bar-team2"></div>
+                </div>
+
+                <p class="prediction-note">
+                    Probabilities are model estimates, not guaranteed outcomes.
+                </p>
+
+            </div>
+
+
+            <!-- Error Message -->
+            <p id="error-message" class="error-message"></p>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer id="about">
+            CricketVision AI · Cricket World Cup Match Prediction System
+        </footer>
+
+    </main>
+
+</div>
+
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>

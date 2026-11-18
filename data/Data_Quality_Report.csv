@@ -1,0 +1,57 @@
+METRIC,VALUE,DETAILS
+ODI matches,501,1975?2023
+T20 World Cup matches,320,2007?2024
+Combined matches,821,Expected 821
+Combined formats,2,ODI and T20I
+ODI missing winners,16,Requires result review
+ODI missing dates,453,Historical source dates may be unavailable
+ODI missing venues,0,Venue completeness
+ODI wicket discrepancies,17,Historical scorecard consistency warnings
+ODI matches in 1975,15,Edition match count
+ODI matches in 1979,15,Edition match count
+ODI matches in 1983,27,Edition match count
+ODI matches in 1987,27,Edition match count
+ODI matches in 1992,39,Edition match count
+ODI matches in 1996,37,Edition match count
+ODI matches in 1999,42,Edition match count
+ODI matches in 2003,54,Edition match count
+ODI matches in 2007,51,Edition match count
+ODI matches in 2011,49,Edition match count
+ODI matches in 2015,49,Edition match count
+ODI matches in 2019,48,Edition match count
+ODI matches in 2023,48,Edition match count
+T20I missing winners,3,Requires result review
+T20I missing dates,0,Historical source dates may be unavailable
+T20I missing venues,0,Venue completeness
+T20I status: COMPLETED,305,Match status count
+T20I status: NO RESULT,7,Match status count
+T20I status: TIED,3,Match status count
+T20I status: ABANDONED,3,Match status count
+T20I status: SUPER OVER,2,Match status count
+T20I matches in 2007,27,Edition match count
+T20I matches in 2009,27,Edition match count
+T20I matches in 2010,27,Edition match count
+T20I matches in 2012,27,Edition match count
+T20I matches in 2014,35,Edition match count
+T20I matches in 2016,35,Edition match count
+T20I matches in 2021,45,Edition match count
+T20I matches in 2022,42,Edition match count
+T20I matches in 2024,55,Edition match count
+Missing values: YEAR,0,Combined dataset
+Missing values: FORMAT,0,Combined dataset
+Missing values: MATCH_DATE,453,Combined dataset
+Missing values: TEAM1,0,Combined dataset
+Missing values: TEAM2,0,Combined dataset
+Missing values: TEAM1_RUNS,383,Combined dataset
+Missing values: TEAM1_WICKETS_LOST,384,Combined dataset
+Missing values: TEAM2_RUNS,384,Combined dataset
+Missing values: TEAM2_WICKETS_LOST,385,Combined dataset
+Missing values: WINNER,19,Combined dataset
+Missing values: MARGIN,453,Combined dataset
+Missing values: WIN_BY_RUNS,640,Combined dataset
+Missing values: WIN_BY_WICKETS,649,Combined dataset
+Missing values: VENUE,0,Combined dataset
+Missing values: MATCH_ID,456,Combined dataset
+Missing values: MATCH_STATUS,501,Combined dataset
+Missing values: SOURCE_FILE,0,Combined dataset
+Missing values: WICKET_DISCREPANCY,320,Combined dataset

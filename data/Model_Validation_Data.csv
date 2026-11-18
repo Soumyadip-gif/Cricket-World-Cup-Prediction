@@ -1,0 +1,131 @@
+FORMAT,YEAR,TEAM1,TEAM2,VENUE,TEAM1_WIN
+ODI,2019,AUS,ENG,BIRMINGHAM,0
+ODI,2019,BAN,IND,BIRMINGHAM,0
+ODI,2019,ENG,IND,BIRMINGHAM,1
+ODI,2019,NZ,PAK,BIRMINGHAM,0
+ODI,2019,NZ,SA,BIRMINGHAM,1
+ODI,2019,AFG,AUS,BRISTOL,0
+ODI,2019,AFG,SA,CARDIFF,0
+ODI,2019,AFG,SL,CARDIFF,0
+ODI,2019,BAN,ENG,CARDIFF,0
+ODI,2019,NZ,SL,CARDIFF,1
+ODI,2019,ENG,NZ,CHESTER-LE-STREET,1
+ODI,2019,SA,SL,CHESTER-LE-STREET,1
+ODI,2019,SL,WI,CHESTER-LE-STREET,1
+ODI,2019,AFG,PAK,LEEDS,0
+ODI,2019,AFG,WI,LEEDS,0
+ODI,2019,ENG,SL,LEEDS,0
+ODI,2019,IND,SL,LEEDS,1
+ODI,2019,AUS,ENG,LONDON,1
+ODI,2019,AUS,IND,LONDON,0
+ODI,2019,AUS,NZ,LONDON,1
+ODI,2019,AUS,SL,LONDON,1
+ODI,2019,BAN,NZ,LONDON,0
+ODI,2019,BAN,PAK,LONDON,0
+ODI,2019,BAN,SA,LONDON,1
+ODI,2019,ENG,NZ,LONDON,1
+ODI,2019,ENG,SA,LONDON,1
+ODI,2019,PAK,SA,LONDON,1
+ODI,2019,AFG,ENG,MANCHESTER,0
+ODI,2019,AUS,SA,MANCHESTER,0
+ODI,2019,IND,NZ,MANCHESTER,0
+ODI,2019,IND,PAK,MANCHESTER,1
+ODI,2019,IND,WI,MANCHESTER,1
+ODI,2019,NZ,WI,MANCHESTER,1
+ODI,2019,AUS,BAN,NOTTINGHAM,1
+ODI,2019,AUS,WI,NOTTINGHAM,1
+ODI,2019,ENG,PAK,NOTTINGHAM,0
+ODI,2019,PAK,WI,NOTTINGHAM,0
+ODI,2019,AFG,BAN,SOUTHAMPTON,0
+ODI,2019,AFG,IND,SOUTHAMPTON,0
+ODI,2019,ENG,WI,SOUTHAMPTON,1
+ODI,2019,IND,SA,SOUTHAMPTON,1
+ODI,2019,AFG,NZ,TAUNTON,0
+ODI,2019,AUS,PAK,TAUNTON,1
+ODI,2019,BAN,WI,TAUNTON,1
+T20I,2021,Australia,New Zealand,Dubai (DICS),1
+T20I,2021,Australia,Pakistan,Dubai (DICS),1
+T20I,2021,England,New Zealand,Abu Dhabi,0
+T20I,2021,India,Namibia,Dubai (DICS),1
+T20I,2021,Pakistan,Scotland,Sharjah,1
+T20I,2021,Afghanistan,New Zealand,Abu Dhabi,0
+T20I,2021,England,South Africa,Sharjah,0
+T20I,2021,Australia,West Indies,Abu Dhabi,1
+T20I,2021,India,Scotland,Dubai (DICS),1
+T20I,2021,Namibia,New Zealand,Sharjah,0
+T20I,2021,Sri Lanka,West Indies,Abu Dhabi,1
+T20I,2021,Australia,Bangladesh,Dubai (DICS),1
+T20I,2021,Afghanistan,India,Abu Dhabi,0
+T20I,2021,New Zealand,Scotland,Dubai (DICS),1
+T20I,2021,Namibia,Pakistan,Abu Dhabi,0
+T20I,2021,Bangladesh,South Africa,Abu Dhabi,0
+T20I,2021,England,Sri Lanka,Sharjah,1
+T20I,2021,India,New Zealand,Dubai (DICS),0
+T20I,2021,Afghanistan,Namibia,Abu Dhabi,1
+T20I,2021,Australia,England,Dubai (DICS),0
+T20I,2021,South Africa,Sri Lanka,Sharjah,1
+T20I,2021,Afghanistan,Pakistan,Dubai (DICS),0
+T20I,2021,Bangladesh,West Indies,Sharjah,0
+T20I,2021,Australia,Sri Lanka,Dubai (DICS),1
+T20I,2021,Namibia,Scotland,Abu Dhabi,1
+T20I,2021,Bangladesh,England,Abu Dhabi,0
+T20I,2021,New Zealand,Pakistan,Sharjah,0
+T20I,2021,South Africa,West Indies,Dubai (DICS),1
+T20I,2021,Afghanistan,Scotland,Sharjah,1
+T20I,2021,India,Pakistan,Dubai (DICS),0
+T20I,2021,Bangladesh,Sri Lanka,Sharjah,0
+T20I,2021,England,West Indies,Dubai (DICS),1
+T20I,2021,Australia,South Africa,Abu Dhabi,1
+T20I,2021,Netherlands,Sri Lanka,Sharjah,0
+T20I,2021,Ireland,Namibia,Sharjah,0
+T20I,2021,Oman,Scotland,Al Amerat,0
+T20I,2021,Bangladesh,Papua New Guinea,Al Amerat,1
+T20I,2021,Ireland,Sri Lanka,Abu Dhabi,0
+T20I,2021,Namibia,Netherlands,Abu Dhabi,1
+T20I,2021,Oman,Bangladesh,Al Amerat,0
+T20I,2021,Papua New Guinea,Scotland,Al Amerat,0
+T20I,2021,Namibia,Sri Lanka,Abu Dhabi,0
+T20I,2021,Ireland,Netherlands,Abu Dhabi,1
+T20I,2021,Bangladesh,Scotland,Al Amerat,0
+T20I,2021,Oman,Papua New Guinea,Al Amerat,1
+T20I,2022,England,Pakistan,Melbourne,1
+T20I,2022,England,India,Adelaide,1
+T20I,2022,New Zealand,Pakistan,Sydney,0
+T20I,2022,India,Zimbabwe,Melbourne,1
+T20I,2022,Bangladesh,Pakistan,Adelaide,0
+T20I,2022,Netherlands,South Africa,Adelaide,1
+T20I,2022,England,Sri Lanka,Sydney,1
+T20I,2022,Australia,Afghanistan,Adelaide,1
+T20I,2022,Ireland,New Zealand,Adelaide,0
+T20I,2022,Pakistan,South Africa,Sydney,1
+T20I,2022,Bangladesh,India,Adelaide,0
+T20I,2022,Netherlands,Zimbabwe,Adelaide,1
+T20I,2022,England,New Zealand,Brisbane,1
+T20I,2022,Afghanistan,Sri Lanka,Brisbane,0
+T20I,2022,Australia,Ireland,Brisbane,1
+T20I,2022,India,South Africa,Perth,0
+T20I,2022,Netherlands,Pakistan,Perth,0
+T20I,2022,Bangladesh,Zimbabwe,Brisbane,1
+T20I,2022,New Zealand,Sri Lanka,Sydney,1
+T20I,2022,Pakistan,Zimbabwe,Perth,0
+T20I,2022,India,Netherlands,Sydney,1
+T20I,2022,Bangladesh,South Africa,Sydney,0
+T20I,2022,England,Ireland,Melbourne,0
+T20I,2022,Australia,Sri Lanka,Perth,1
+T20I,2022,Bangladesh,Netherlands,Hobart,1
+T20I,2022,India,Pakistan,Melbourne,1
+T20I,2022,Ireland,Sri Lanka,Hobart,0
+T20I,2022,Afghanistan,England,Perth,0
+T20I,2022,Australia,New Zealand,Sydney,0
+T20I,2022,Scotland,Zimbabwe,Hobart,0
+T20I,2022,Ireland,West Indies,Hobart,1
+T20I,2022,Namibia,United Arab Emirates,Geelong,0
+T20I,2022,Netherlands,Sri Lanka,Geelong,0
+T20I,2022,West Indies,Zimbabwe,Hobart,1
+T20I,2022,Ireland,Scotland,Hobart,1
+T20I,2022,Sri Lanka,United Arab Emirates,Geelong,1
+T20I,2022,Namibia,Netherlands,Geelong,0
+T20I,2022,Ireland,Zimbabwe,Hobart,0
+T20I,2022,Scotland,West Indies,Hobart,1
+T20I,2022,Netherlands,United Arab Emirates,Geelong,1
+T20I,2022,Namibia,Sri Lanka,Geelong,1
