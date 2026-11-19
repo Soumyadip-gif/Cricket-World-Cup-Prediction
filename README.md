@@ -1,40 +1,168 @@
 ﻿# Cricket World Cup Match Prediction System
 
-An AI-powered Cricket World Cup Match Prediction System that uses Machine Learning to predict the winning probabilities of two cricket teams in ODI and T20 formats.
+An end-to-end Machine Learning web application that predicts winning probabilities for Cricket World Cup matches in **One Day International (ODI)** and **Twenty20 International (T20I)** formats. The system combines historical cricket match data, predictive analytics and an interactive dashboard to explore World Cup performance.
 
 ## Project Overview
 
-This project uses historical Cricket World Cup match data and a trained Machine Learning model to estimate the probability of each team winning a match.
+The Cricket World Cup Match Prediction System uses historical ODI and T20 World Cup match results to estimate the probability of either team winning an upcoming fixture.
 
-### Key Features
+The application includes a Flask backend, a trained Logistic Regression model, historical cricket analytics and an interactive web dashboard.
 
-- ODI and T20 World Cup match predictions
-- Machine Learning-based win probability estimation
-- Team-versus-team prediction
-- Symmetric prediction logic
-- Historical cricket match datasets
-- REST API built with Flask
-- API health monitoring
-- Interactive web interface
+## Key Features
+
+### 1. Match Winner Prediction
+- Predict ODI and T20 World Cup matches.
+- Select Team 1 and Team 2.
+- Choose the match format: ODI or T20I.
+- View winning probabilities for both teams.
+- Symmetric prediction logic to reduce team-order bias.
+- Automatic internal handling of prediction year and venue.
+
+### 2. Cricket Analytics Dashboard
+- Overall World Cup match statistics.
+- ODI and T20I format filtering.
+- Total matches and decided matches.
+- Participating team statistics.
+- Tournament history by year and format.
+
+### 3. Team Analytics
+- Total matches played.
+- Matches won and lost.
+- Team win percentage.
+- Tournament-wise performance history.
+- Format-specific team statistics.
+
+### 4. Head-to-Head Analysis
+- Compare two cricket teams.
+- View historical encounters.
+- Compare victories and unresolved matches.
+- Filter comparisons by ODI, T20I or all formats.
+
+### 5. Historical Dataset
+- Combined ODI and T20 World Cup match dataset.
+- Historical tournament records.
+- Data preprocessing and team-name normalization.
+- Exclusion of unresolved matches from the prediction training target.
+
+### 6. Backend and Testing
+- REST APIs built with Flask.
+- Model contract and prediction feature tests.
+- Analytics API tests.
+- Automated testing using pytest.
+
+## Machine Learning Model
+
+The production prediction system uses **Logistic Regression**.
+
+The model uses eight engineered features:
+
+- FORMAT
+- YEAR
+- VENUE
+- WIN_RATE_DIFF
+- MATCHES_DIFF
+- WINS_DIFF
+- H2H_WIN_DIFF
+- H2H_MATCHES
+
+The prediction engine calculates the probability in both team orientations and averages the results to improve prediction symmetry.
+
+### Model Evaluation
+
+The production model was evaluated using a chronological train, validation and test split.
+
+| Evaluation Metric | Test Score |
+|---|---:|
+| Accuracy | 68.69% |
+| Balanced Accuracy | 67.88% |
+| ROC-AUC | 76.32% |
+
+**Important:** These are historical held-out test results, not guaranteed future prediction accuracy.
+
+## Technologies Used
+
+### Backend and Machine Learning
+- Python
+- Flask
+- Pandas
+- NumPy
+- Scikit-learn
+- Joblib
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+### Data Visualization and Testing
+- Matplotlib
+- Seaborn
+- Pytest
+
+### Deployment
+- Gunicorn
+
+## Installation and Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Soumyadip-gif/Cricket-World-Cup-Prediction.git
+cd Cricket-World-Cup-Prediction
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### 3. Activate the Virtual Environment
+
+Windows PowerShell:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+### 4. Install Dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 5. Run the Application
+
+```bash
+python app.py
+```
+
+Open the application in your browser:
+
+```text
+http://127.0.0.1:5000
+```
 
 ## API Documentation
 
 ### Base URL
 
-For local development:
+```text
+http://127.0.0.1:5000
+```
 
-`http://127.0.0.1:5000`
-
-### 1. Health Check API
+### 1. Health Check
 
 - **Method:** GET
 - **Endpoint:** `/health`
 
-Request:
+Example:
 
-`GET /health`
+```http
+GET /health
+```
 
-Successful Response (200 OK):
+Response:
 
 ```json
 {
@@ -42,35 +170,33 @@ Successful Response (200 OK):
 }
 ```
 
-### 2. Match Prediction API
+### 2. Match Winner Prediction
 
 - **Method:** POST
 - **Endpoint:** `/api/predict`
 - **Content-Type:** `application/json`
 
-Request Body:
+Request body:
 
 ```json
 {
   "team1": "India",
   "team2": "Australia",
-  "format": "ODI",
-  "year": 2027,
-  "venue": "Ahmedabad"
+  "format": "ODI"
 }
 ```
 
-#### Request Parameters
+Request parameters:
 
 | Parameter | Type | Description |
 |---|---|---|
 | team1 | String | First cricket team |
 | team2 | String | Second cricket team |
 | format | String | ODI or T20I |
-| year | Integer | Match year |
-| venue | String | Match venue |
 
-#### Successful Response (200 OK)
+The backend automatically supplies the current year and an unknown venue internally. Users do not need to enter tournament year or venue.
+
+Example successful response:
 
 ```json
 {
@@ -81,72 +207,118 @@ Request Body:
 }
 ```
 
-*Example response only. Actual probabilities depend on model predictions.*
+*Example probabilities only. Actual results are generated by the trained model.*
 
-#### Error Responses
+### 3. Analytics APIs
 
-| Status Code | Description |
-|---|---|
-| 400 | Missing or invalid input |
-| 500 | Unexpected server error |
+All analytics endpoints use the `/api/analytics` prefix.
 
-Example:
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/api/analytics/overview` | Overall World Cup statistics |
+| GET | `/api/analytics/teams` | Team statistics |
+| GET | `/api/analytics/team/<team>` | Individual team analysis |
+| GET | `/api/analytics/head-to-head` | Historical team comparison |
+| GET | `/api/analytics/tournaments` | Tournament history |
 
-```json
-{
-  "error": "All fields are required"
-}
+The analytics endpoints support the `format` query parameter:
+
+- `ALL`
+- `ODI`
+- `T20I`
+
+Example requests:
+
+```http
+GET /api/analytics/overview?format=ODI
 ```
 
-### 3. Using the API with Python
+```http
+GET /api/analytics/teams?format=T20I
+```
 
-Install the requests library:
+```http
+GET /api/analytics/team/India?format=ALL
+```
+
+```http
+GET /api/analytics/head-to-head?team1=India&team2=Australia&format=ODI
+```
+
+```http
+GET /api/analytics/tournaments?format=ALL
+```
+
+## Running Tests
+
+Run the automated test suite:
 
 ```bash
-pip install requests
+python -m pytest -q
 ```
 
-Example code:
+The current development test suite has **54 passing tests**.
 
-```python
-import requests
+## Project Structure
 
-API_URL = "http://127.0.0.1:5000/api/predict"
-
-payload = {
-    "team1": "India",
-    "team2": "Australia",
-    "format": "ODI",
-    "year": 2027,
-    "venue": "Ahmedabad"
-}
-
-response = requests.post(API_URL, json=payload)
-
-if response.status_code == 200:
-    print("Prediction:", response.json())
-else:
-    print("Error:", response.status_code, response.text)
+```text
+Cricket-World-Cup-Prediction/
+│
+├── app.py
+├── config.py
+├── requirements.txt
+│
+├── data/
+│   └── Combined_Cricket_World_Cup_Master_Dataset.csv
+│
+├── models/
+│   └── Cricket_World_Cup_Model.pkl
+│
+├── routes/
+│   └── analytics.py
+│
+├── src/
+│   ├── analytics/
+│   │   └── world_cup_analytics.py
+│   │
+│   ├── features/
+│   │   ├── feature_engineering.py
+│   │   ├── odi_recent_form.py
+│   │   └── upcoming_match_features.py
+│   │
+│   └── prediction/
+│       └── predict_match.py
+│
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
+│
+├── templates/
+│   └── index.html
+│
+└── tests/
 ```
 
-## Technologies Used
+*The structure above highlights the main application components; additional project files may exist.*
 
-- Python
-- Flask
-- Pandas
-- NumPy
-- Scikit-learn
-- Joblib
-- HTML
-- CSS
-- JavaScript
+## Future Improvements
 
-## Machine Learning Model
-
-The system uses a trained Logistic Regression model to estimate match-winning probabilities based on the selected match information.
-
-The model was evaluated using a chronological train, validation, and test split to help assess performance on later matches.
+- More advanced match prediction features.
+- Additional historical cricket statistics.
+- Improved model evaluation and validation.
+- Deployment as a publicly accessible web application.
+- Enhanced interactive visualizations.
 
 ## Disclaimer
 
-This project is intended for educational and research purposes. Predictions are estimates generated by a Machine Learning model and do not guarantee actual match results.
+This project is developed for educational, research and analytical purposes. Machine Learning predictions are statistical estimates and do not guarantee actual cricket match outcomes.
+
+## Author
+
+**Soumyadip Porel**
+
+GitHub: [Soumyadip-gif](https://github.com/Soumyadip-gif)
+
+Repository: [Cricket World Cup Match Prediction System](https://github.com/Soumyadip-gif/Cricket-World-Cup-Prediction)
