@@ -1,4 +1,3 @@
-
 from pathlib import Path
 
 
@@ -6,9 +5,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 
 # Existing historical dataset directory
-SOURCE_DATA_DIR = Path(
-    r"C:\Users\HP\Documents\Cricket_datset\processed"
-)
+SOURCE_DATA_DIR = BASE_DIR / "data"
 
 # Application directories
 DATA_DIR = BASE_DIR / "data"

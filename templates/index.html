@@ -1,222 +1,254 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CricketVision AI | Match Predictor</title>
+    <meta name="theme-color" content="#0b1020">
+    <title>CricketVision AI | Cricket Analytics</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
-
 <body>
 
-<div class="dashboard">
+<div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+        <a class="brand" href="#dashboard">
+            <span class="brand-icon">C</span>
+            <span>CricketVision <b>AI</b></span>
+        </a>
 
-    <!-- Sidebar -->
-    <aside class="sidebar">
-        <div class="brand">🏏 CricketVision <span>AI</span></div>
-
-        <nav>
-            <a class="active" href="/">Dashboard</a>
-            <a href="#predict">Match Prediction</a>
-            <a href="#about">About Project</a>
+        <div class="nav-label">WORKSPACE</div>
+        <nav class="navigation">
+            <a href="#dashboard" class="nav-link active">Dashboard</a>
+            <a href="#prediction" class="nav-link">Match Prediction</a>
+            <a href="#teams" class="nav-link">Team Analytics</a>
+            <a href="#head-to-head" class="nav-link">Head to Head</a>
+            <a href="#tournaments" class="nav-link">World Cup History</a>
         </nav>
 
-        <div class="sidebar-footer">
-            <span class="status-dot"></span>
-            Prediction System Online
+        <div class="sidebar-bottom">
+            <div class="online-indicator"><span></span> Analytics API Online</div>
+            <div class="sidebar-version">CRICKETVISION AI · V1.0</div>
         </div>
     </aside>
 
-
-    <!-- Main Dashboard -->
     <main class="main-content">
-
         <header class="topbar">
-            <div>
-                <p class="eyebrow">CRICKET ANALYTICS PLATFORM</p>
-                <h1>Match Prediction Dashboard</h1>
-                <p class="subtitle">
-                    Predict match outcomes using historical World Cup data and machine learning.
-                </p>
+            <div class="mobile-brand">
+                <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+                <span>CricketVision <b>AI</b></span>
             </div>
-
-            <div class="model-status">● Model Active</div>
+            <div class="topbar-info">
+                <span class="eyebrow">CRICKET ANALYTICS PLATFORM</span>
+                <h1>Cricket Intelligence Dashboard</h1>
+                <p>Historical insights, team performance and machine learning predictions.</p>
+            </div>
+            <div class="system-status"><span></span> SYSTEM ONLINE</div>
         </header>
 
-
-        <!-- Statistics -->
-        <section class="stats-grid">
-
-            <div class="stat-card">
-                <p>Historical Matches</p>
-                <h2>821</h2>
-                <span>ODI + T20 World Cups</span>
+        <section class="page-section" id="dashboard">
+            <div class="section-title">
+                <div>
+                    <span class="eyebrow">OVERVIEW</span>
+                    <h2>World Cup Overview</h2>
+                    <p>Historical data across ODI and T20 World Cups.</p>
+                </div>
+                <select id="analytics-format" class="select-control">
+                    <option value="ALL">All Formats</option>
+                    <option value="ODI">ODI World Cup</option>
+                    <option value="T20I">T20 World Cup</option>
+                </select>
             </div>
 
-            <div class="stat-card">
-                <p>Prediction Model</p>
-                <h2>Logistic Regression</h2>
-                <span>Baseline model selected</span>
+            <div class="stats-grid">
+                <article class="stat-card">
+                    <div class="stat-top"><span>Total Matches</span><span class="stat-symbol">M</span></div>
+                    <h3 id="stat-matches">--</h3>
+                    <p>Historical matches</p>
+                </article>
+                <article class="stat-card">
+                    <div class="stat-top"><span>Decided Matches</span><span class="stat-symbol">W</span></div>
+                    <h3 id="stat-decided">--</h3>
+                    <p>Matches with a winner</p>
+                </article>
+                <article class="stat-card">
+                    <div class="stat-top"><span>Participating Teams</span><span class="stat-symbol">T</span></div>
+                    <h3 id="stat-teams">--</h3>
+                    <p>Unique teams</p>
+                </article>
+                <article class="stat-card">
+                    <div class="stat-top"><span>Tournaments</span><span class="stat-symbol">Y</span></div>
+                    <h3 id="stat-tournaments">--</h3>
+                    <p>Format and year combinations</p>
+                </article>
             </div>
 
-            <div class="stat-card">
-                <p>Test Accuracy</p>
-                <h2>68.69%</h2>
-                <span>Historical test evaluation</span>
-            </div>
+            <div class="content-grid">
+                <article class="panel">
+                    <div class="panel-heading">
+                        <div><span class="eyebrow">PERFORMANCE</span><h3>Top Teams</h3></div>
+                        <a href="#teams" class="text-link">View all</a>
+                    </div>
+                    <div class="table-wrap">
+                        <table>
+                            <thead><tr><th>TEAM</th><th>MATCHES</th><th>WINS</th><th>WIN RATE</th></tr></thead>
+                            <tbody id="top-teams-body"><tr><td colspan="4">Loading team data...</td></tr></tbody>
+                        </table>
+                    </div>
+                </article>
 
+                <article class="panel">
+                    <div class="panel-heading">
+                        <div><span class="eyebrow">DATA COVERAGE</span><h3>Dataset Timeline</h3></div>
+                    </div>
+                    <div class="timeline-card">
+                        <span>FIRST TOURNAMENT</span>
+                        <strong id="stat-first-year">--</strong>
+                        <div class="timeline-line"></div>
+                        <span>LATEST TOURNAMENT</span>
+                        <strong id="stat-latest-year">--</strong>
+                        <p>Coverage is based on the available historical World Cup dataset.</p>
+                    </div>
+                </article>
+            </div>
         </section>
 
-
-        <!-- Prediction Section -->
-        <section class="prediction-section" id="predict">
-
-            <div class="section-heading">
-                <p class="eyebrow">AI POWERED ANALYSIS</p>
-                <h2>Predict Match Winner</h2>
-                <p>Select a tournament format and search for two teams.</p>
+        <section class="page-section" id="prediction">
+            <div class="section-title">
+                <div>
+                    <span class="eyebrow">MACHINE LEARNING</span>
+                    <h2>Match Winner Prediction</h2>
+                    <p>Estimate the winning probabilities for an upcoming World Cup fixture.</p>
+                </div>
+                <span class="model-chip">LOGISTIC REGRESSION</span>
             </div>
 
-
-            <form id="prediction-form">
-
-                <!-- Format Selector -->
-                <div class="format-selector">
-                    <label for="match-format">MATCH FORMAT</label>
-
-                    <select id="match-format" required>
-                        <option value="ODI">ODI World Cup</option>
-                        <option value="T20I">T20 World Cup</option>
-                    </select>
-                </div>
-
-
-                <!-- Team Selection -->
-                <div class="teams-grid">
-
-                    <div class="team-input">
-                        <label for="team1">TEAM 1</label>
-
-                        <input
-                            id="team1"
-                            type="text"
-                            list="team-list"
-                            placeholder="Search Team 1..."
-                            autocomplete="off"
-                            required
-                        >
+            <div class="panel prediction-panel">
+                <form id="prediction-form">
+                    <div class="form-grid prediction-options">
+                        <div class="field">
+                            <label for="match-format">MATCH FORMAT</label>
+                            <select id="match-format" required>
+                                <option value="ODI">ODI World Cup</option>
+                                <option value="T20I">T20 World Cup</option>
+                            </select>
+                        </div>
                     </div>
 
-                    <div class="versus">VS</div>
-
-                    <div class="team-input">
-                        <label for="team2">TEAM 2</label>
-
-                        <input
-                            id="team2"
-                            type="text"
-                            list="team-list"
-                            placeholder="Search Team 2..."
-                            autocomplete="off"
-                            required
-                        >
+                    <datalist id="team-list"></datalist>
+                    <div class="matchup-grid">
+                        <div class="field">
+                            <label for="team1">TEAM ONE</label>
+                            <input id="team1" type="text" list="team-list" placeholder="Search first team..." required autocomplete="off">
+                        </div>
+                        <div class="versus">VS</div>
+                        <div class="field">
+                            <label for="team2">TEAM TWO</label>
+                            <input id="team2" type="text" list="team-list" placeholder="Search second team..." required autocomplete="off">
+                        </div>
                     </div>
 
-                </div>
-
-
-                <!-- Searchable Team Suggestions -->
-                <datalist id="team-list">
-                    <option value="Afghanistan">
-                    <option value="Australia">
-                    <option value="Bangladesh">
-                    <option value="Bermuda">
-                    <option value="Canada">
-                    <option value="England">
-                    <option value="India">
-                    <option value="Ireland">
-                    <option value="Kenya">
-                    <option value="Namibia">
-                    <option value="Nepal">
-                    <option value="Netherlands">
-                    <option value="New Zealand">
-                    <option value="Oman">
-                    <option value="Pakistan">
-                    <option value="Scotland">
-                    <option value="South Africa">
-                    <option value="Sri Lanka">
-                    <option value="United Arab Emirates">
-                    <option value="United States">
-                    <option value="West Indies">
-                    <option value="Zimbabwe">
-                </datalist>
-
-
-                <!-- Action Buttons -->
-                <div class="prediction-actions">
-
-                    <button type="submit" id="predict-btn">
-                        Generate Prediction →
-                    </button>
-
-                    <button type="button" id="refresh-btn">
-                        ↻ Refresh
-                    </button>
-
-                </div>
-
-            </form>
-
-
-            <!-- Prediction Result -->
-            <div id="result" class="result-panel hidden">
-
-                <h3>Prediction Results</h3>
-
-                <div class="result-teams">
-
-                    <div>
-                        <p id="result-team1">Team 1</p>
-                        <h2 id="probability1">0%</h2>
+                    <div class="button-row">
+                        <button type="submit" class="primary-button" id="predict-btn">Generate Prediction →</button>
+                        <button type="reset" class="secondary-button" id="reset-prediction">Reset</button>
                     </div>
+                </form>
 
-                    <div>
-                        <p id="result-team2">Team 2</p>
-                        <h2 id="probability2">0%</h2>
+                <p class="error-message" id="prediction-error"></p>
+
+                <div id="prediction-result" class="result-panel hidden">
+                    <div class="result-heading">
+                        <span class="eyebrow">MODEL OUTPUT</span>
+                        <h3>Winning Probability</h3>
                     </div>
-
+                    <div class="probability-grid">
+                        <div class="probability-card">
+                            <span id="result-team1">Team One</span>
+                            <strong id="probability1">0%</strong>
+                            <div class="progress-track"><div id="bar-team1"></div></div>
+                        </div>
+                        <div class="probability-card">
+                            <span id="result-team2">Team Two</span>
+                            <strong id="probability2">0%</strong>
+                            <div class="progress-track"><div id="bar-team2"></div></div>
+                        </div>
+                    </div>
+                    <p class="prediction-note">Probabilities are statistical model estimates, not guaranteed match outcomes.</p>
                 </div>
-
-                <div class="probability-track">
-                    <div id="bar-team1"></div>
-                    <div id="bar-team2"></div>
-                </div>
-
-                <p class="prediction-note">
-                    Probabilities are model estimates, not guaranteed outcomes.
-                </p>
-
             </div>
-
-
-            <!-- Error Message -->
-            <p id="error-message" class="error-message"></p>
-
         </section>
 
+        <section class="page-section" id="teams">
+            <div class="section-title">
+                <div>
+                    <span class="eyebrow">TEAM PERFORMANCE</span>
+                    <h2>Team Analytics</h2>
+                    <p>Compare historical World Cup records and inspect individual team performance.</p>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="toolbar">
+                    <input id="team-search" type="text" list="team-list" placeholder="Enter a team name...">
+                    <button class="primary-button" id="team-search-btn" type="button">Analyze Team</button>
+                </div>
+                <div id="team-detail" class="team-detail hidden"></div>
+                <div class="panel-heading table-heading">
+                    <h3>Team Rankings</h3>
+                    <span class="muted">Ranked by win rate</span>
+                </div>
+                <div class="table-wrap">
+                    <table>
+                        <thead><tr><th>TEAM</th><th>MATCHES</th><th>WINS</th><th>LOSSES</th><th>WIN RATE</th></tr></thead>
+                        <tbody id="all-teams-body"><tr><td colspan="5">Loading...</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
 
-        <!-- Footer -->
-        <footer id="about">
-            CricketVision AI · Cricket World Cup Match Prediction System
+        <section class="page-section" id="head-to-head">
+            <div class="section-title">
+                <div>
+                    <span class="eyebrow">TEAM COMPARISON</span>
+                    <h2>Head-to-Head Analysis</h2>
+                    <p>Compare two teams using their historical World Cup meetings.</p>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="toolbar comparison-toolbar">
+                    <input id="h2h-team1" type="text" list="team-list" placeholder="First team">
+                    <span class="versus small-versus">VS</span>
+                    <input id="h2h-team2" type="text" list="team-list" placeholder="Second team">
+                    <button id="h2h-search-btn" class="primary-button" type="button">Compare</button>
+                </div>
+                <div id="h2h-result" class="hidden"></div>
+            </div>
+        </section>
+
+        <section class="page-section" id="tournaments">
+            <div class="section-title">
+                <div>
+                    <span class="eyebrow">TOURNAMENT ARCHIVE</span>
+                    <h2>World Cup History</h2>
+                    <p>Explore the historical tournament coverage in the dataset.</p>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="table-wrap">
+                    <table>
+                        <thead><tr><th>YEAR</th><th>FORMAT</th><th>MATCHES</th><th>DECIDED</th><th>TEAMS</th></tr></thead>
+                        <tbody id="tournament-body"><tr><td colspan="5">Loading tournament history...</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <span>CricketVision AI</span>
+            <span>Cricket World Cup Match Prediction System · Historical data analytics</span>
         </footer>
-
     </main>
-
 </div>
 
-
+<div id="toast" class="toast hidden"></div>
 <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-
 </body>
 </html>
